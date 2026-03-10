@@ -1,0 +1,40 @@
+I 2026/03/09 14:09:54 UPNP * found device: TL-WR841N
+I 2026/03/09 14:09:54 UPNP * mapped mapped port 8090 to port 49152 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 14:09:56 KELONDRO * Word: hashCache.size = 20000
+I 2026/03/09 14:09:56 SWITCHBOARD * Initializing Segment '/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS.
+I 2026/03/09 14:09:56 org.apache.solr.core.SolrXmlConfig Loading solr.xml from /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/defaults/solr/solr.xml
+I 2026/03/09 14:09:56 org.eclipse.jetty.util.log Logging initialized @2371ms to org.eclipse.jetty.util.log.Slf4jLog
+I 2026/03/09 14:09:56 org.apache.solr.core.CorePropertiesLocator Found 2 core definitions underneath /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0
+I 2026/03/09 14:09:56 org.apache.solr.core.CorePropertiesLocator Cores are: [webgraph, collection1]
+I 2026/03/09 14:09:56 org.apache.solr.core.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+I 2026/03/09 14:09:56 org.apache.solr.update.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+I 2026/03/09 14:09:56 org.apache.solr.update.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+E 2026/03/09 14:09:56 org.apache.solr.core.SolrCore Solr index directory '/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0/webgraph/data/index/' is locked (lockType=native).  Throwing exception.
+E 2026/03/09 14:09:56 org.apache.solr.core.SolrCore Solr index directory '/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0/collection1/data/index/' is locked (lockType=native).  Throwing exception.
+I 2026/03/09 14:09:56 org.apache.solr.metrics.SolrMetricManager Closing metric reporters for registry=solr.core.webgraph tag=SolrCore@215fbc3d
+I 2026/03/09 14:09:56 org.apache.solr.metrics.SolrMetricManager Closing metric reporters for registry=solr.core.collection1 tag=SolrCore@714ac26a
+I 2026/03/09 14:09:56 SolrEmbeddedInstance * detected default solr core: collection1
+E 2026/03/09 14:09:56 STARTUP * YaCy cannot start: SolrCore 'collection1' is not available due to init failure: Index dir '/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0/collection1/data/index/' of core 'collection1' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+org.apache.solr.core.SolrCoreInitializationException: SolrCore 'collection1' is not available due to init failure: Index dir '/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0/collection1/data/index/' of core 'collection1' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:2106)
+	at org.apache.solr.core.CoreContainer.getCore(CoreContainer.java:2079)
+	at net.yacy.cora.federate.solr.instance.EmbeddedInstance.<init>(EmbeddedInstance.java:106)
+	at net.yacy.search.index.Fulltext.connectLocalSolr(Fulltext.java:162)
+	at net.yacy.search.Switchboard.<init>(Switchboard.java:595)
+	at net.yacy.yacy.startup(yacy.java:212)
+	at net.yacy.yacy.main(yacy.java:832)
+Caused by: org.apache.solr.common.SolrException: Index dir '/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0/collection1/data/index/' of core 'collection1' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:1204)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:1048)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1560)
+	at org.apache.solr.core.CoreContainer.lambda$load$10(CoreContainer.java:950)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:202)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:259)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index dir '/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0/collection1/data/index/' of core 'collection1' is already locked. The most likely cause is another Solr server (or another solr core in this server) also configured to use this directory; other possible causes may be specific to lockType: native
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:874)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:1123)
+	... 9 more

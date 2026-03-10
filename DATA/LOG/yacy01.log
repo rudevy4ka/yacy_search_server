@@ -1,0 +1,1238 @@
+I 2026/03/09 13:13:50 UPNP * found device: TL-WR841N
+I 2026/03/09 13:13:50 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:13:51 KELONDRO * Word: hashCache.size = 20000
+I 2026/03/09 13:13:51 SWITCHBOARD * Initializing Segment '/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS.
+I 2026/03/09 13:13:51 org.apache.solr.core.SolrXmlConfig Loading solr.xml from /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/defaults/solr/solr.xml
+I 2026/03/09 13:13:51 org.eclipse.jetty.util.log Logging initialized @2039ms to org.eclipse.jetty.util.log.Slf4jLog
+I 2026/03/09 13:13:51 org.apache.solr.core.CorePropertiesLocator Found 2 core definitions underneath /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0
+I 2026/03/09 13:13:51 org.apache.solr.core.CorePropertiesLocator Cores are: [webgraph, collection1]
+I 2026/03/09 13:13:51 org.apache.solr.core.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+I 2026/03/09 13:13:51 org.apache.solr.update.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+I 2026/03/09 13:13:51 org.apache.solr.update.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+I 2026/03/09 13:13:52 org.apache.solr.update.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+I 2026/03/09 13:13:52 org.apache.solr.update.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+I 2026/03/09 13:13:52 org.apache.solr.update.CommitTracker Hard AutoCommit: if uncommitted for 180000ms; 
+I 2026/03/09 13:13:52 org.apache.solr.update.CommitTracker Hard AutoCommit: if uncommitted for 180000ms; 
+I 2026/03/09 13:13:52 org.apache.solr.update.CommitTracker Soft AutoCommit: if uncommitted for 5000ms; 
+I 2026/03/09 13:13:52 org.apache.solr.update.CommitTracker Soft AutoCommit: if uncommitted for 5000ms; 
+I 2026/03/09 13:13:52 org.apache.solr.rest.ManagedResourceStorage File-based storage initialized to use dir: /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0/webgraph/conf
+I 2026/03/09 13:13:52 org.apache.solr.rest.ManagedResourceStorage File-based storage initialized to use dir: /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0/collection1/conf
+I 2026/03/09 13:13:52 org.apache.solr.handler.component.SuggestComponent Initializing SuggestComponent
+I 2026/03/09 13:13:52 org.apache.solr.handler.component.SuggestComponent Initializing SuggestComponent
+I 2026/03/09 13:13:52 org.apache.solr.spelling.suggest.SolrSuggester init: {name=mySuggester, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, field=cat, weightField=price, suggestAnalyzerFieldType=string, buildOnStartup=false}
+I 2026/03/09 13:13:52 org.apache.solr.spelling.suggest.SolrSuggester init: {name=mySuggester, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, field=cat, weightField=price, suggestAnalyzerFieldType=string, buildOnStartup=false}
+I 2026/03/09 13:13:52 org.apache.solr.spelling.suggest.SolrSuggester Dictionary loaded with params: {name=mySuggester, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, field=cat, weightField=price, suggestAnalyzerFieldType=string, buildOnStartup=false}
+I 2026/03/09 13:13:52 org.apache.solr.spelling.suggest.SolrSuggester Dictionary loaded with params: {name=mySuggester, lookupImpl=FuzzyLookupFactory, dictionaryImpl=DocumentDictionaryFactory, field=cat, weightField=price, suggestAnalyzerFieldType=string, buildOnStartup=false}
+I 2026/03/09 13:13:52 org.apache.solr.update.UpdateLog Could not find max version in index or recent updates, using new clock 1859182743824367616
+I 2026/03/09 13:13:52 org.apache.solr.update.UpdateLog Could not find max version in index or recent updates, using new clock 1859182743824367616
+I 2026/03/09 13:13:52 SolrEmbeddedInstance * detected default solr core: collection1
+I 2026/03/09 13:13:52 Fulltext * using lucene version 9_0_0
+I 2026/03/09 13:13:52 Fulltext * connected solr in /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/solr_9_0, lucene version 9_0_0
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.new.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.new.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:52 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.new.heap
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.old.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.old.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:52 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.old.heap
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.pot.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.pot.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:52 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/seed.pot.heap
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/QUEUES/crawlProfilesActive1.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/QUEUES/crawlProfilesActive1.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:52 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/QUEUES/crawlProfilesActive1.heap
+I 2026/03/09 13:13:52 org.apache.solr.core.QuerySenderListener QuerySenderListener done.
+I 2026/03/09 13:13:52 org.apache.solr.core.QuerySenderListener QuerySenderListener done.
+I 2026/03/09 13:13:52 SWITCHBOARD * Loaded active crawl profiles from file crawlProfilesActive1.heap, 10 entries
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/QUEUES/crawlProfilesPassive1.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:52 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/QUEUES/crawlProfilesPassive1.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:52 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/QUEUES/crawlProfilesPassive1.heap
+I 2026/03/09 13:13:52 SWITCHBOARD * Loaded passive crawl profiles from file crawlProfilesPassive1.heap, 0 entries, 0
+I 2026/03/09 13:13:52 NETWORK * BOOTSTRAP: 0 seeds known from previous run, concurrently starting seedlist loader
+I 2026/03/09 13:13:52 SWITCHBOARD * HTCACHE Path = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/HTCACHE
+I 2026/03/09 13:13:52 NETWORK * BOOTSTRAP: failed (1) to load seeds from seed-list URL https://lodwich.net/static/seeds/seed.txt: HTTPClient failure: HttpHostConnectException: Connect to lodwich.net:443 [lodwich.net/0.0.0.0, lodwich.net/0:0:0:0:0:0:0:0] failed: Connection refused -> ConnectException: Connection refused | request=HEAD https://lodwich.net/static/seeds/seed.txt | target=https://lodwich.net | route={}->https://lodwich.net:443 | vhost=lodwich.net | sniEnabled=true | resolvedIp=0.0.0.0 | timeouts(ms){connect=20000, lease=20000, connect=20000} | deadline=20000 | duration=74 | concurrent=false
+I 2026/03/09 13:13:52 NETWORK * BOOTSTRAP: failed (1) to load seeds from seed-list URL https://s1002.xpcom-online.de/yacy/seed2.txt: HTTPClient failure: UnknownHostException: s1002.xpcom-online.de: nodename nor servname provided, or not known | request=HEAD https://s1002.xpcom-online.de/yacy/seed2.txt | target=https://s1002.xpcom-online.de | route={}->https://s1002.xpcom-online.de:443 | vhost=s1002.xpcom-online.de | sniEnabled=true | timeouts(ms){connect=20000, lease=20000, connect=20000} | deadline=20000 | duration=113 | concurrent=false
+I 2026/03/09 13:13:52 NETWORK * BOOTSTRAP: seed-list URL https://aahso.net/yacyseed too old (61 days)
+I 2026/03/09 13:13:52 NETWORK * BOOTSTRAP: seed-list URL https://sonst.mifritscher.de/yacy/seed.txt too old (224 days)
+I 2026/03/09 13:13:52 NETWORK * BOOTSTRAP: seed-list URL http://5.45.105.16/yacyseed too old (61 days)
+I 2026/03/09 13:13:52 NETWORK * BOOTSTRAP: 0 seeds from seed-list URL https://tonibot.ddns.net:8892/other/seed.txt, AGE=0h, uptodatec = 0, outdatedc = 0
+I 2026/03/09 13:13:53 NETWORK * BOOTSTRAP: 145 seeds from seed-list URL http://sixcooler.de/yacy/seed.txt, AGE=0h, uptodatec = 149, outdatedc = 18
+I 2026/03/09 13:13:53 NETWORK * BOOTSTRAP: 32 seeds from seed-list URL https://frank-siebert.de/seed.txt, AGE=0h, uptodatec = 149, outdatedc = 17
+I 2026/03/09 13:13:53 NETWORK * BOOTSTRAP: 128 seeds from seed-list URL http://yacy.v16.de/seed/seed.txt, AGE=0h, uptodatec = 148, outdatedc = 20
+I 2026/03/09 13:13:53 NETWORK * BOOTSTRAP: 51 seeds from seed-list URL https://search.joestr.at/www/seed.txt, AGE=0h, uptodatec = 151, outdatedc = 20
+I 2026/03/09 13:13:56 Domain Init * local host address: fe80:0:0:0:44e6:b971:a9c:ebf0 (local)
+I 2026/03/09 13:13:56 Domain Init * local host address: fe80::44e6:b971:a9c:ebf0 (local)
+I 2026/03/09 13:13:56 Domain Init * local host address: 127.0.0.1 (local)
+I 2026/03/09 13:13:56 Domain Init * local host address: 0::1 (local)
+I 2026/03/09 13:13:56 Domain Init * local host address: 0:0:0:0:0:0:0:1 (local)
+I 2026/03/09 13:13:57 SEEDDB * could not find stored mySeed.txt at /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/NETWORK/mySeed.txt: . creating new seed.
+I 2026/03/09 13:13:57 NETWORK * init: OWN SEED = JC0L3X5043Xu
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/HTCACHE/responseHeader.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/HTCACHE/responseHeader.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/HTCACHE/responseHeader.heap
+I 2026/03/09 13:13:57 Cache * initialized cache database responseHeaderDB.size() = 0, fileDB.size() = 0
+I 2026/03/09 13:13:57 SWITCHBOARD * packs.hold Path = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/PACKS/hold
+I 2026/03/09 13:13:57 SWITCHBOARD * packs.live Path = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/PACKS/live
+I 2026/03/09 13:13:57 SWITCHBOARD * packs.load Path = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/PACKS/load
+I 2026/03/09 13:13:57 SWITCHBOARD * packs.loaded Path = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/PACKS/loaded
+I 2026/03/09 13:13:57 SWITCHBOARD * packs.unload Path = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/PACKS/unload
+I 2026/03/09 13:13:57 SWITCHBOARD * heuristic.opensearch list Path = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/defaults/heuristicopensearch.conf
+I 2026/03/09 13:13:57 SWITCHBOARD * RELEASE Path = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/RELEASE
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/message.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/message.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/message.heap
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/wiki.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/wiki.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/wiki.heap
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/wiki-bkp.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/wiki-bkp.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/wiki-bkp.heap
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/blog.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/blog.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/blog.heap
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/blogComment.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/blogComment.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/blogComment.heap
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/SETTINGS/user.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/SETTINGS/user.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/SETTINGS/user.heap
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/bookmarks.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/bookmarks.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/bookmarks.heap
+I 2026/03/09 13:13:57 BOOKMARKS * started init of tags from bookmarks.db...
+I 2026/03/09 13:13:57 BOOKMARKS * finished init 0 tags using your 0 bookmarks.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/bookmarkDates.heap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/bookmarkDates.heap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/bookmarkDates.heap
+I 2026/03/09 13:13:57 BOOKMARKS * start init dates.db from bookmarks.db...
+I 2026/03/09 13:13:57 BOOKMARKS * finished init 0 dates using 0 bookmarks.
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.android.package-archive': Android Application Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'apk': Android Application Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-bzip2': Bzip 2 UNIX Compressed File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/bzip2': Bzip 2 UNIX Compressed File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-bz2': Bzip 2 UNIX Compressed File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-bzip': Bzip 2 UNIX Compressed File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-stuffit': Bzip 2 UNIX Compressed File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tbz2': Bzip 2 UNIX Compressed File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'bz2': Bzip 2 UNIX Compressed File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tbz': Bzip 2 UNIX Compressed File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-xz': XZ Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xz': XZ Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'txz': XZ Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'csv': Comma Separated Value Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/msword': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/doc': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'appl/text': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.msword': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.ms-word': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/winword': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/word': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-msw6': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-msword': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'doc': Word Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-gzip': GNU Zip Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/gzip': GNU Zip Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-gunzip': GNU Zip Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/gzipped': GNU Zip Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/gzip-compressed': GNU Zip Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'gzip/document': GNU Zip Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'gz': GNU Zip Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tgz': GNU Zip Compressed Archive Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/html': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/xhtml+xml': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/xhtml+xml': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-httpd-php': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-tex': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.ms-outlook': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/plain': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/csv': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'htm': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'phtml': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'msg': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'phtm': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tex': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'php4': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'php5': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'cfm': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'stm': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'php2': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xhtml': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'php3': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tpl': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'txt': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'aspx': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'php': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'html': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'shtml': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'shtm': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'asp': Streaming HTML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/jpg': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/cursor': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/png': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/vnd.wap.wbmp': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/jpeg': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/x-cursor': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/bmp': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/gif': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/x-icon': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/x-bmp': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/vnd.microsoft.cursor': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/x-png': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/tiff': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/x-tiff': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/ico': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/vnd.microsoft.bitmap': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/vnd.microsoft.icon': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'jpg': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'cur': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tiff': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'bmp': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'gif': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tf8': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'png': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'rle': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'btiff': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tif': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ico': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'btf': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'jpeg': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'wbmp': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'jpe': Generic Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/tiff': Metadata Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/vnd.adobe.photoshop': Metadata Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/x-photoshop': Metadata Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tif' was set to mime 'image/jpg', overwriting with new mime 'image/tiff'.
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tif': Metadata Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'psd': Metadata Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/json': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-javascript': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/javascript': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/x-javascript': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/x-json': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/sgml': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'cpp': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'jsonp': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'c': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'jsp': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'h': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'js': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'json': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'mf': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'py': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'pl': Link Scraper Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/freemind': FreeMind Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-freemind': FreeMind Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'mm': FreeMind Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.text': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.spreadsheet': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.presentation': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.graphics': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.chart': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.formula': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.database': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.image': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.text-master': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.text-template': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.spreadsheet-template': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.presentation-template': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.oasis.opendocument.graphics-template': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-vnd.oasis.opendocument.text': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/ooo-calc': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/ooo-writer': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'otg': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'otp': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'odb': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ott': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'odc': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ots': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'odf': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'odg': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'sxw': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'odi': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'odm': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'odp': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'odt': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ods': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'sxc': OASIS OpenDocument V2 Text Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.wordprocessingml.document': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.wordprocessingml.template': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.presentationml.template': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.presentationml.slideshow': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.presentationml.presentation': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.openxmlformats-officedocument.spreadsheetml.template': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'dotx': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'pptx': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xltx': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ppsx': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xlsx': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'potx': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'docx': Open Office XML Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/pdf': Acrobat Portable Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-pdf': Acrobat Portable Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/acrobat': Acrobat Portable Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'applications/vnd.pdf': Acrobat Portable Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/pdf': Acrobat Portable Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/x-pdf': Acrobat Portable Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'pdf': Acrobat Portable Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/mspowerpoint': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/powerpoint': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.ms-powerpoint': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/ms-powerpoint': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/mspowerpnt': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd-mspowerpoint': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-powerpoint': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-m': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'pps': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ppt': Microsoft Powerpoint Parser
+I 2026/03/09 13:13:57 PARSER * ps2ascii not found. Switching to java parser mode.
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/postscript': PostScript Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/ps': PostScript Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-postscript': PostScript Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-ps': PostScript Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-postscript-not-eps': PostScript Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ps': PostScript Document Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'xml': RSS Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/rss': RSS Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/xml': RSS Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/rss+xml': RSS Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/atom+xml': RSS Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'rss': RSS Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xml': RSS Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/rtf': Rich Text Format Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/richtext': Rich Text Format Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/rtf': Rich Text Format Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-rtf': Rich Text Format Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-soffice': Rich Text Format Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'rtf': Rich Text Format Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/prs.sid': Commodore 64 SID Audio File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/psid': Commodore 64 SID Audio File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/x-psid': Commodore 64 SID Audio File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/sidtune': Commodore 64 SID Audio File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/x-sidtune': Commodore 64 SID Audio File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'sid': Commodore 64 SID Audio File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/svg+xml': SVG Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'svg': SVG Image Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-tar': Tape Archive File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/tar': Tape Archive File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'applicaton/x-gtar': Tape Archive File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'multipart/x-tar': Tape Archive File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'tar': Tape Archive File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-bittorrent': Torrent Metadata Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'torrent': Torrent Metadata Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/x-vcard': vCard Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vcard': vCard Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-versit': vCard Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/x-versit': vCard Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/x-vcalendar': vCard Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'vcf': vCard Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/visio': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-visio': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.visio': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/visio.drawing': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vsd': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-vsd': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'image/x-vsd': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'zz-application/zz-winassoc-vsd': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'vsd': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'vst': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'vss': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'vdx': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'vtx': Microsoft Visio Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/msexcel': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/excel': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.ms-excel': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-excel': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-msexcel': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-ms-excel': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-dos_ms_excel': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/xls': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xla': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xls': Microsoft Excel Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/zip': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-zip': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-zip-compressed': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-compress': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/x-compressed': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'multipart/x-zip': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/java-archive': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/vnd.android.package-archive': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/epub+zip': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'apk' was set to mime 'application/vnd.android.package-archive', overwriting with new mime 'application/zip'.
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'zip': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'epub': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'jar': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'apk': ZIP File Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/aiff': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/x-aiff': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/mpeg': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/mpa': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/mpa-robust': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/mp4': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/flac': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/x-flac': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/ogg': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/x-ms-wma': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/x-ms-asf': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/vnd.rn-realaudio': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/x-pn-realaudio': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/vnd.wave': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/wave': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/wav': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'audio/x-wav': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'aiff': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'flac': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'aifc': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'm4p': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'wma': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'wav': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ogg': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'ra': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'mp4': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'mp3': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'm4b': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'm4a': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'rm': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'aif': Audio File Meta-Tag Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'application/xml': XML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for mime type 'text/xml': XML Parser
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xml' was set to mime 'xml', overwriting with new mime 'application/xml'.
+I 2026/03/09 13:13:57 PARSER * Parser for extension 'xml': XML Parser
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/robots.bheap, 0 MB. Please wait.
+I 2026/03/09 13:13:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/robots.bheap, 0 entries, 0 gaps.
+I 2026/03/09 13:13:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/robots.bheap
+I 2026/03/09 13:13:57 NoticedURL * START CREATING STACKS at /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/QUEUES
+I 2026/03/09 13:13:57 NoticedURL * opening CrawlerCoreStacks..
+I 2026/03/09 13:13:57 NoticedURL * opening CrawlerLimitStacks..
+I 2026/03/09 13:13:57 NoticedURL * opening CrawlerNoLoadStacks..
+I 2026/03/09 13:13:57 NoticedURL * FINISHED CREATING STACKS at /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/QUEUES
+I 2026/03/09 13:13:57 RESOURCE OBSERVER * path for disc space measurement: /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA
+I 2026/03/09 13:13:57 STACKCRAWL * STACKCRAWL thread initialized.
+I 2026/03/09 13:13:57 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:13:57 MIGRATION * copied new Skinfile
+I 2026/03/09 13:13:57 Jetty9HttpServerImpl * htrootpath = /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/htroot
+I 2026/03/09 13:13:57 org.eclipse.jetty.server.Server jetty-9.4.57.v20241219; built: 2025-01-08T21:24:30.412Z; git: df524e6b29271c2e09ba9aea83c18dc9db464a31; jvm 17.0.14+7
+I 2026/03/09 13:13:57 org.eclipse.jetty.server.handler.ContextHandler Started o.e.j.s.h.ContextHandler@74abbb{/,null,AVAILABLE}
+I 2026/03/09 13:13:57 org.eclipse.jetty.server.session DefaultSessionIdManager workerName=node0
+I 2026/03/09 13:13:57 org.eclipse.jetty.server.session No SessionScavenger set, using defaults
+I 2026/03/09 13:13:57 org.eclipse.jetty.server.session node0 Scavenging every 660000ms
+I 2026/03/09 13:13:57 org.eclipse.jetty.server.handler.ContextHandler Started o.e.j.w.WebAppContext@64a4dd8d{YaCy,/,file:///Users/mrudevych/Documents/University/4%20%D0%BA%D1%83%D1%80%D1%81/2%20%D1%81%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80/IIS/lab1/yacy_search_server/htroot/,AVAILABLE}
+I 2026/03/09 13:13:57 org.eclipse.jetty.server.AbstractConnector Started httpd-0.0.0.0:8090@4cbf4f53{HTTP/1.1, (http/1.1)}{0.0.0.0:8090}
+I 2026/03/09 13:13:57 org.eclipse.jetty.server.Server Started @7918ms
+I 2026/03/09 13:13:57 STARTUP * Jetty 9.4.57.v20241219
+I 2026/03/09 13:13:57 HTCACHE * storing content of url https://yacy.net/include/donate.html, 4293 bytes
+I 2026/03/09 13:13:58 LOADER * CRAWLER Redirection detected ('HTTP/1.1 301 Moved Permanently') for URL https://www.openarchives.org/Register/ListFriends
+I 2026/03/09 13:13:58 LOADER * CRAWLER ..Redirecting request to: https://www.openarchives.org/pmh/registry/ListFriends
+I 2026/03/09 13:13:59 HTCACHE * storing content of url https://www.openarchives.org/pmh/registry/ListFriends, 761 bytes
+I 2026/03/09 13:14:00 HTCACHE * storing content of url https://roar.eprints.org/cgi/roar_search/advanced/export_roar_ROAR::ListFriends.xml?_action_export=1&output=ROAR%3A%3AListFriends, 532941 bytes
+I 2026/03/09 13:14:01 Domain Init * local host address: fe80:0:0:0:833d:6a27:2e2a:353f (local)
+I 2026/03/09 13:14:01 Domain Init * local host address: fe80::833d:6a27:2e2a:353f (local)
+I 2026/03/09 13:14:01 Domain Init * local host address: fe80::1 (local)
+I 2026/03/09 13:14:01 Domain Init * local host address: fe80:0:0:0:0:0:0:1 (local)
+I 2026/03/09 13:14:06 Domain Init * local host address: fe80:0:0:0:c44:d757:756c:ab15 (local)
+I 2026/03/09 13:14:06 Domain Init * local host address: fe80::c44:d757:756c:ab15 (local)
+I 2026/03/09 13:14:06 Domain Init * local host address: fe80:0:0:0:cc1:5e01:95ad:43c7 (local)
+I 2026/03/09 13:14:06 Domain Init * local host address: fe80::cc1:5e01:95ad:43c7 (local)
+I 2026/03/09 13:14:07 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/api.bheap, 0 MB. Please wait.
+I 2026/03/09 13:14:07 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/api.bheap, 0 entries, 0 gaps.
+I 2026/03/09 13:14:07 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/api.bheap
+I 2026/03/09 13:14:11 Domain Init * local host address: fe80:0:0:0:d32f:dfb:b95d:67e0 (local)
+I 2026/03/09 13:14:11 Domain Init * local host address: fe80::d32f:dfb:b95d:67e0 (local)
+I 2026/03/09 13:14:12 NETWORK * BOOTSTRAP: failed (1) to load seeds from seed-list URL http://seedlist.wertewesten.net/seed.txt: HTTPClient failure: SocketTimeoutException: Read timed out | request=HEAD http://seedlist.wertewesten.net/seed.txt | target=http://seedlist.wertewesten.net | route={}->http://seedlist.wertewesten.net:80 | vhost=seedlist.wertewesten.net | sniEnabled=true | resolvedIp=91.194.84.109 | timeouts(ms){connect=20000, lease=20000, connect=20000} | deadline=20000 | duration=20124 | concurrent=false
+I 2026/03/09 13:14:16 Domain Init * local host address: fe80:0:0:0:ce81:b1c:bd2c:69e (local)
+I 2026/03/09 13:14:16 Domain Init * local host address: fe80::ce81:b1c:bd2c:69e (local)
+I 2026/03/09 13:14:21 Domain Init * local host address: fe80:0:0:0:302f:3e04:14a2:2c6 (local)
+I 2026/03/09 13:14:21 Domain Init * local host address: fe80::302f:3e04:14a2:2c6 (local)
+I 2026/03/09 13:14:21 Domain Init * local host address: 192.168.0.100 (local)
+I 2026/03/09 13:14:26 Domain Init * local host address: fe80:0:0:0:e8d4:4ff:fe75:1b98 (local)
+I 2026/03/09 13:14:26 Domain Init * local host address: fe80::e8d4:4ff:fe75:1b98 (local)
+I 2026/03/09 13:14:26 Domain Init * finished
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed__anonufe-57458732-8' contacted peer at http://46.20.39.110:8090/, received 9295 bytes, time = 7000 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler' contacted peer at http://78.54.214.33:8080/, received 9221 bytes, time = 7004 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_usem' contacted peer at http://185.246.155.142:8090/, received 9102 bytes, time = 7004 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_agent-refutug-ufe-255' contacted peer at http://91.155.66.250:8090/, received 9777 bytes, time = 7006 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer '_anonufe-57458732-8' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'sixcooler' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'agent-refutug-ufe-255' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'usem' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_shark-crawler' contacted peer at http://185.122.53.147:49152/, received 9593 bytes, time = 7013 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'shark-crawler' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kitenar-ufe-37' contacted peer at http://51.148.134.136:8090/, received 9774 bytes, time = 7020 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'agent-kitenar-ufe-37' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler4' contacted peer at http://78.54.214.33:8094/, received 9564 bytes, time = 7026 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_PraetorIndex' contacted peer at http://54.36.109.184:8091/, received 9301 bytes, time = 7025 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'sixcooler4' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'PraetorIndex' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'agent-kitenar-ufe-37' at [51.148.134.136]
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'PraetorIndex' at [54.36.109.184]
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'shark-crawler' at [185.122.53.147]
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked principal peer 'sixcooler' at [78.54.214.33]
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'sixcooler4' at [78.54.214.33]
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer '_anonufe-57458732-8' at [46.20.39.110]
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'usem' at [185.246.155.142]
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'agent-refutug-ufe-255' at [91.155.66.250]
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_thoughts-of-mine' contacted peer at http://192.18.156.94:8090/, received 9585 bytes, time = 7132 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'thoughts-of-mine' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'thoughts-of-mine' at [192.18.156.94]
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_agent-ivtech-001' contacted peer at http://69.213.230.177:8090/, received 9180 bytes, time = 7149 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'agent-ivtech-001' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'agent-ivtech-001' at [69.213.230.177]
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello thread 'PublishSeed_Ima_prepper_be_a_prepper_too' contacted peer at http://69.173.253.236:8090/, received 9060 bytes, time = 7221 milliseconds
+I 2026/03/09 13:17:44 NETWORK * yacyClient.hello: Peer 'Ima_prepper_be_a_prepper_too' reported us as junior.
+I 2026/03/09 13:17:44 NETWORK * publish: handshaked senior peer 'Ima_prepper_be_a_prepper_too' at [69.173.253.236]
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello thread 'PublishSeed_astarseran' contacted peer at http://yacy.upio.sk:8090/, received 9296 bytes, time = 10528 milliseconds
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello: Peer 'astarseran' reported us as junior.
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello thread 'PublishSeed_sol_anonufe-18082489-14' contacted peer at http://84.191.93.133:8090/, received 9584 bytes, time = 10531 milliseconds
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello thread 'PublishSeed_SOMSAB' contacted peer at http://93.202.247.232:8090/, received 9419 bytes, time = 10531 milliseconds
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello: Peer 'sol_anonufe-18082489-14' reported us as junior.
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello: Peer 'SOMSAB' reported us as junior.
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello thread 'PublishSeed_agent-safemep-ufe-57' contacted peer at http://217.91.56.110:8090/, received 9608 bytes, time = 10534 milliseconds
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello: Peer 'agent-safemep-ufe-57' reported us as junior.
+I 2026/03/09 13:17:48 NETWORK * publish: handshaked senior peer 'SOMSAB' at [93.202.247.232]
+I 2026/03/09 13:17:48 NETWORK * publish: handshaked principal peer 'sol_anonufe-18082489-14' at [84.191.93.133]
+I 2026/03/09 13:17:48 NETWORK * publish: handshaked senior peer 'astarseran' at [yacy.upio.sk]
+I 2026/03/09 13:17:48 NETWORK * publish: handshaked senior peer 'agent-safemep-ufe-57' at [217.91.56.110]
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello thread 'PublishSeed_tvc_agent_spooty' contacted peer at http://68.174.62.111:8090/, received 9149 bytes, time = 11308 milliseconds
+I 2026/03/09 13:17:48 NETWORK * yacyClient.hello: Peer 'tvc_agent_spooty' reported us as junior.
+I 2026/03/09 13:17:48 NETWORK * publish: handshaked principal peer 'tvc_agent_spooty' at [68.174.62.111]
+I 2026/03/09 13:17:51 NETWORK * yacyClient.hello thread 'PublishSeed_agent-rosigep-ufe-32' contacted peer at http://24.183.41.221:8091/, received 9090 bytes, time = 13852 milliseconds
+I 2026/03/09 13:17:51 NETWORK * yacyClient.hello: Peer 'agent-rosigep-ufe-32' reported us as junior.
+I 2026/03/09 13:17:51 NETWORK * publish: handshaked senior peer 'agent-rosigep-ufe-32' at [24.183.41.221]
+I 2026/03/09 13:18:07 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lehemif-w-75', peer http://44.148.185.59:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://44.148.185.59:8090/yacy/hello.html -> TimeoutException | request=POST http://44.148.185.59:8090/yacy/hello.html | target=http://44.148.185.59:8090 | route={}->http://44.148.185.59:8090 | vhost=44.148.185.59 | sniEnabled=true | resolvedIp=44.148.185.59 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30016 | concurrent=true
+I 2026/03/09 13:18:07 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dasus-ufe-11', peer http://95.107.40.126:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://95.107.40.126:8090/yacy/hello.html -> TimeoutException | request=POST http://95.107.40.126:8090/yacy/hello.html | target=http://95.107.40.126:8090 | route={}->http://95.107.40.126:8090 | vhost=95.107.40.126 | sniEnabled=true | resolvedIp=95.107.40.126 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30015 | concurrent=true
+I 2026/03/09 13:18:07 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:18:07 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:18:07 NETWORK * publish: disconnected senior peer 'agent-dasus-ufe-11' from [95.107.40.126]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:18:07 NETWORK * publish: disconnected senior peer 'agent-lehemif-w-75' from [44.148.185.59, 178.27.97.92]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:18:37 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lehemif-w-75', peer http://178.27.97.92:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://178.27.97.92:8090/yacy/hello.html -> TimeoutException | request=POST http://178.27.97.92:8090/yacy/hello.html | target=http://178.27.97.92:8090 | route={}->http://178.27.97.92:8090 | vhost=178.27.97.92 | sniEnabled=true | resolvedIp=178.27.97.92 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30007 | concurrent=true
+I 2026/03/09 13:18:37 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:18:37 NETWORK * publish: disconnected senior peer 'agent-lehemif-w-75' from [178.27.97.92]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:18:37 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 17 peer(s).
+I 2026/03/09 13:18:37 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:19:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/HTCACHE/file.array/JC0L3X5043Xu.20260309111957548.blob, 0 MB. Please wait.
+I 2026/03/09 13:19:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/HTCACHE/file.array/JC0L3X5043Xu.20260309111957548.blob, 0 entries, 0 gaps.
+I 2026/03/09 13:19:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/HTCACHE/file.array/JC0L3X5043Xu.20260309111957548.blob
+I 2026/03/09 13:19:57 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 13:19:57 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 13:19:57 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:19:57 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:19:57 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 13:19:57 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 13:19:57 SWITCHBOARD * postprocessing deactivated: no enough ram (476269944), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 13:19:57 SWITCHBOARD * postprocessing deactivated: too high load (4.35546875) > 2.5, to force change field postprocessing.maximum_load
+I 2026/03/09 13:19:57 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 13:19:57 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 13:19:57 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 13:19:57 KELONDRO * HeapReader: generating index for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/stats.bheap, 0 MB. Please wait.
+I 2026/03/09 13:19:57 KELONDRO * HeapReader: finished index generation for /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/stats.bheap, 0 entries, 0 gaps.
+I 2026/03/09 13:19:57 KELONDRO * Heap: initializing heap /Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/WORK/stats.bheap
+I 2026/03/09 13:21:37 NETWORK * yacyClient.hello thread 'PublishSeed_agent-tutefil-ufe-14', peer http://[2803:9800:9900:832e:868a:9657:e773:1ceb]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2803:9800:9900:832e:868a:9657:e773:1ceb]:8090/yacy/hello.html | target=http://[2803:9800:9900:832e:868a:9657:e773:1ceb]:8090 | route={}->http://[2803:9800:9900:832e:868a:9657:e773:1ceb]:8090 | vhost=[2803:9800:9900:832e:868a:9657:e773:1ceb] | sniEnabled=true | resolvedIp=2803:9800:9900:832e:868a:9657:e773:1ceb | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=8 | concurrent=true
+I 2026/03/09 13:21:37 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:21:37 NETWORK * publish: disconnected senior peer 'agent-tutefil-ufe-14' from [2803:9800:9900:832e:868a:9657:e773:1ceb]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:21:38 NETWORK * yacyClient.hello thread 'PublishSeed_Cephei', peer http://mikambo.org:8090/; exception: HTTPClient failure: SocketException: Connection reset | request=POST http://mikambo.org:8090/yacy/hello.html | target=http://mikambo.org:8090 | route={}->http://mikambo.org:8090 | vhost=mikambo.org | sniEnabled=true | resolvedIp=135.181.215.109 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=290 | concurrent=true
+I 2026/03/09 13:21:38 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:21:38 NETWORK * publish: disconnected principal peer 'Cephei' from [mikambo.org]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:22:02 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler2', peer http://78.54.214.33:8888/; exception: HTTPClient failure: SocketException: Network is unreachable | request=POST http://78.54.214.33:8888/yacy/hello.html | target=http://78.54.214.33:8888 | route={}->http://78.54.214.33:8888 | vhost=78.54.214.33 | sniEnabled=true | resolvedIp=78.54.214.33 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=25217 | concurrent=true
+I 2026/03/09 13:22:02 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:22:02 NETWORK * publish: disconnected senior peer 'sixcooler2' from [78.54.214.33]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:22:02 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 17 peer(s).
+I 2026/03/09 13:22:02 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:23:09 NETWORK * yacyClient.hello thread 'PublishSeed_nugauk' contacted peer at http://86.172.237.65:49152/, received 9260 bytes, time = 6997 milliseconds
+I 2026/03/09 13:23:09 NETWORK * yacyClient.hello: Peer 'nugauk' reported us as junior.
+I 2026/03/09 13:23:10 NETWORK * publish: handshaked senior peer 'nugauk' at [86.172.237.65]
+I 2026/03/09 13:23:32 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gabebos-xmfe-7', peer http://212.58.114.130:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://212.58.114.130:8090/yacy/hello.html -> TimeoutException | request=POST http://212.58.114.130:8090/yacy/hello.html | target=http://212.58.114.130:8090 | route={}->http://212.58.114.130:8090 | vhost=212.58.114.130 | sniEnabled=true | resolvedIp=212.58.114.130 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 13:23:32 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:23:32 NETWORK * publish: disconnected senior peer 'agent-gabebos-xmfe-7' from [212.58.114.130]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:23:32 NETWORK * yacyClient.hello thread 'PublishSeed_provost-info', peer http://search.provost.fr:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://search.provost.fr:8090/yacy/hello.html -> TimeoutException | request=POST http://search.provost.fr:8090/yacy/hello.html | target=http://search.provost.fr:8090 | route={}->http://search.provost.fr:8090 | vhost=search.provost.fr | sniEnabled=true | resolvedIp=51.75.104.188 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 13:23:32 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:23:32 NETWORK * publish: disconnected senior peer 'provost-info' from [search.provost.fr]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:23:32 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 18 peer(s).
+I 2026/03/09 13:23:32 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:24:03 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gomikif-ufe-99', peer http://194.15.154.156:8090/; exception: HTTPClient failure: HttpHostConnectException: Connect to 194.15.154.156:8090 [/194.15.154.156] failed: Connection refused -> ConnectException: Connection refused | request=POST http://194.15.154.156:8090/yacy/hello.html | target=http://194.15.154.156:8090 | route={}->http://194.15.154.156:8090 | vhost=194.15.154.156 | sniEnabled=true | resolvedIp=194.15.154.156 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=39 | concurrent=true
+I 2026/03/09 13:24:03 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:24:03 NETWORK * publish: disconnected senior peer 'agent-gomikif-ufe-99' from [194.15.154.156]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:24:03 NETWORK * yacyClient.hello thread 'PublishSeed_precisionyacy', peer http://precisionyacy.v6.rocks:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://precisionyacy.v6.rocks:8090/yacy/hello.html | target=http://precisionyacy.v6.rocks:8090 | route={}->http://precisionyacy.v6.rocks:8090 | vhost=precisionyacy.v6.rocks | sniEnabled=true | resolvedIp=2a02:3100:840d:cb00:1a56:80ff:fee5:a6af | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=107 | concurrent=true
+I 2026/03/09 13:24:03 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:24:03 NETWORK * publish: disconnected senior peer 'precisionyacy' from [precisionyacy.v6.rocks]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:24:33 NETWORK * yacyClient.hello thread 'PublishSeed_agent-timetravellingdog-kazak', peer http://100.101.127.34:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://100.101.127.34:8090/yacy/hello.html -> TimeoutException | request=POST http://100.101.127.34:8090/yacy/hello.html | target=http://100.101.127.34:8090 | route={}->http://100.101.127.34:8090 | vhost=100.101.127.34 | sniEnabled=true | resolvedIp=100.101.127.34 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30006 | concurrent=true
+I 2026/03/09 13:24:33 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:24:33 NETWORK * publish: disconnected senior peer 'agent-timetravellingdog-kazak' from [100.101.127.34, 76.136.221.33]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:24:40 NETWORK * yacyClient.hello thread 'PublishSeed_agent-timetravellingdog-kazak' contacted peer at http://76.136.221.33:8090/, received 8748 bytes, time = 7240 milliseconds
+I 2026/03/09 13:24:40 NETWORK * yacyClient.hello: Peer 'agent-timetravellingdog-kazak' reported us as junior.
+I 2026/03/09 13:24:40 NETWORK * publish: handshaked senior peer 'agent-timetravellingdog-kazak' at [76.136.221.33]
+I 2026/03/09 13:24:40 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 19 peer(s).
+I 2026/03/09 13:24:40 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:24:57 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 13:24:57 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 13:24:58 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:24:58 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:24:58 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 13:24:58 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 13:24:58 SWITCHBOARD * postprocessing deactivated: too high load (2.5380859375) > 2.5, to force change field postprocessing.maximum_load
+I 2026/03/09 13:24:58 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 13:24:58 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 13:24:58 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 13:25:16 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dopolag-ufe-16' contacted peer at http://93.133.104.107:8090/, received 9065 bytes, time = 6687 milliseconds
+I 2026/03/09 13:25:17 NETWORK * yacyClient.hello: Peer 'agent-dopolag-ufe-16' reported us as junior.
+I 2026/03/09 13:25:17 NETWORK * publish: handshaked senior peer 'agent-dopolag-ufe-16' at [93.133.104.107]
+I 2026/03/09 13:25:24 NETWORK * yacyClient.hello thread 'PublishSeed_xssfox' contacted peer at http://202.47.179.144:8090/, received 9717 bytes, time = 14327 milliseconds
+I 2026/03/09 13:25:24 NETWORK * yacyClient.hello: Peer 'xssfox' reported us as junior.
+I 2026/03/09 13:25:24 NETWORK * publish: handshaked senior peer 'xssfox' at [202.47.179.144]
+I 2026/03/09 13:25:40 NETWORK * yacyClient.hello thread 'PublishSeed_agent-search-multed-com', peer http://185.82.197.140:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://185.82.197.140:8090/yacy/hello.html -> TimeoutException | request=POST http://185.82.197.140:8090/yacy/hello.html | target=http://185.82.197.140:8090 | route={}->http://185.82.197.140:8090 | vhost=185.82.197.140 | sniEnabled=true | resolvedIp=185.82.197.140 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30007 | concurrent=true
+I 2026/03/09 13:25:40 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:25:40 NETWORK * publish: disconnected senior peer 'agent-search-multed-com' from [185.82.197.140]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:25:40 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 21 peer(s).
+I 2026/03/09 13:25:40 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:26:17 NETWORK * yacyClient.hello thread 'PublishSeed_gudao' contacted peer at http://38.45.65.132:8090/, received 9152 bytes, time = 6960 milliseconds
+I 2026/03/09 13:26:17 NETWORK * yacyClient.hello thread 'PublishSeed_etherealwebring' contacted peer at http://66.179.137.5:8090/, received 8917 bytes, time = 6964 milliseconds
+I 2026/03/09 13:26:17 NETWORK * yacyClient.hello: Peer 'etherealwebring' reported us as junior.
+I 2026/03/09 13:26:17 NETWORK * yacyClient.hello: Peer 'gudao' reported us as junior.
+I 2026/03/09 13:26:17 NETWORK * publish: handshaked senior peer 'etherealwebring' at [66.179.137.5]
+I 2026/03/09 13:26:17 NETWORK * publish: handshaked senior peer 'gudao' at [38.45.65.132]
+I 2026/03/09 13:26:40 NETWORK * yacyClient.hello thread 'PublishSeed_agent-hatagop-ufe-92', peer http://44.143.70.114:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://44.143.70.114:8090/yacy/hello.html -> TimeoutException | request=POST http://44.143.70.114:8090/yacy/hello.html | target=http://44.143.70.114:8090 | route={}->http://44.143.70.114:8090 | vhost=44.143.70.114 | sniEnabled=true | resolvedIp=44.143.70.114 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 13:26:40 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:26:40 NETWORK * publish: disconnected senior peer 'agent-hatagop-ufe-92' from [44.143.70.114]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:26:40 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 23 peer(s).
+I 2026/03/09 13:26:40 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:27:20 NETWORK * yacyClient.hello thread 'PublishSeed_agent-mikofir-ufe-22' contacted peer at http://83.164.76.127:8090/, received 9129 bytes, time = 10125 milliseconds
+I 2026/03/09 13:27:20 NETWORK * yacyClient.hello: Peer 'agent-mikofir-ufe-22' reported us as junior.
+I 2026/03/09 13:27:20 NETWORK * publish: handshaked senior peer 'agent-mikofir-ufe-22' at [83.164.76.127]
+I 2026/03/09 13:27:20 NETWORK * yacyClient.hello thread 'PublishSeed_idlid_com-39356792-11' contacted peer at http://192.99.28.106:8090/, received 9229 bytes, time = 10433 milliseconds
+I 2026/03/09 13:27:20 NETWORK * yacyClient.hello: Peer 'idlid_com-39356792-11' reported us as junior.
+I 2026/03/09 13:27:20 NETWORK * publish: handshaked senior peer 'idlid_com-39356792-11' at [192.99.28.106]
+I 2026/03/09 13:27:23 NETWORK * yacyClient.hello thread 'PublishSeed_search-lrk-lol' contacted peer at http://46.224.186.126/, received 9209 bytes, time = 13292 milliseconds
+I 2026/03/09 13:27:23 NETWORK * yacyClient.hello: Peer 'search-lrk-lol' reported us as junior.
+I 2026/03/09 13:27:23 NETWORK * publish: handshaked senior peer 'search-lrk-lol' at [46.224.186.126]
+I 2026/03/09 13:27:23 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 26 peer(s).
+I 2026/03/09 13:27:23 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:28:00 NETWORK * yacyClient.hello thread 'PublishSeed_agent-palipel-ufe-7' contacted peer at http://109.190.142.161:8090/, received 8956 bytes, time = 6724 milliseconds
+I 2026/03/09 13:28:00 NETWORK * yacyClient.hello: Peer 'agent-palipel-ufe-7' reported us as junior.
+I 2026/03/09 13:28:00 NETWORK * yacyClient.hello thread 'PublishSeed_agent-sokobis-w-30' contacted peer at http://86.5.6.95:8111/, received 9339 bytes, time = 6738 milliseconds
+I 2026/03/09 13:28:00 NETWORK * yacyClient.hello: Peer 'agent-sokobis-w-30' reported us as junior.
+I 2026/03/09 13:28:00 NETWORK * publish: handshaked senior peer 'agent-palipel-ufe-7' at [109.190.142.161]
+I 2026/03/09 13:28:00 NETWORK * publish: handshaked senior peer 'agent-sokobis-w-30' at [86.5.6.95]
+I 2026/03/09 13:28:00 NETWORK * yacyClient.hello thread 'PublishSeed_filsofia' contacted peer at http://69.163.207.93:8090/, received 9159 bytes, time = 7181 milliseconds
+I 2026/03/09 13:28:00 NETWORK * yacyClient.hello: Peer 'filsofia' reported us as junior.
+I 2026/03/09 13:28:00 NETWORK * publish: handshaked senior peer 'filsofia' at [69.163.207.93]
+I 2026/03/09 13:28:00 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 29 peer(s).
+I 2026/03/09 13:28:00 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:28:31 NETWORK * yacyClient.hello thread 'PublishSeed_agent-mahamek-ufe-122', peer http://[2601:1c2:300:ac4:dea6:32ff:fed5:aed7]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2601:1c2:300:ac4:dea6:32ff:fed5:aed7]:8090/yacy/hello.html | target=http://[2601:1c2:300:ac4:dea6:32ff:fed5:aed7]:8090 | route={}->http://[2601:1c2:300:ac4:dea6:32ff:fed5:aed7]:8090 | vhost=[2601:1c2:300:ac4:dea6:32ff:fed5:aed7] | sniEnabled=true | resolvedIp=2601:1c2:300:ac4:dea6:32ff:fed5:aed7 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=6 | concurrent=true
+I 2026/03/09 13:28:31 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:28:31 NETWORK * publish: disconnected senior peer 'agent-mahamek-ufe-122' from [2601:1c2:300:ac4:dea6:32ff:fed5:aed7, 24.20.55.177]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:28:37 NETWORK * yacyClient.hello thread 'PublishSeed_agent-durufag-ufe-54' contacted peer at http://185.224.129.227:8090/, received 9354 bytes, time = 6688 milliseconds
+I 2026/03/09 13:28:37 NETWORK * yacyClient.hello: Peer 'agent-durufag-ufe-54' reported us as junior.
+I 2026/03/09 13:28:37 NETWORK * publish: handshaked senior peer 'agent-durufag-ufe-54' at [185.224.129.227]
+I 2026/03/09 13:28:37 NETWORK * yacyClient.hello thread 'PublishSeed_ExploreTruth' contacted peer at http://141.98.154.239:8090/, received 8982 bytes, time = 6711 milliseconds
+I 2026/03/09 13:28:37 NETWORK * yacyClient.hello: Peer 'ExploreTruth' reported us as junior.
+I 2026/03/09 13:28:37 NETWORK * publish: handshaked senior peer 'ExploreTruth' at [141.98.154.239]
+I 2026/03/09 13:28:38 NETWORK * yacyClient.hello thread 'PublishSeed_agent-mahamek-ufe-122' contacted peer at http://24.20.55.177:8090/, received 8956 bytes, time = 7383 milliseconds
+I 2026/03/09 13:28:38 NETWORK * yacyClient.hello: Peer 'agent-mahamek-ufe-122' reported us as junior.
+I 2026/03/09 13:28:38 NETWORK * publish: handshaked senior peer 'agent-mahamek-ufe-122' at [24.20.55.177]
+I 2026/03/09 13:28:38 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 32 peer(s).
+I 2026/03/09 13:28:38 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:29:15 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dipidel-ufe-7' contacted peer at http://45.156.84.247:8090/, received 8820 bytes, time = 6619 milliseconds
+I 2026/03/09 13:29:15 NETWORK * yacyClient.hello: Peer 'agent-dipidel-ufe-7' reported us as junior.
+I 2026/03/09 13:29:15 NETWORK * publish: handshaked senior peer 'agent-dipidel-ufe-7' at [45.156.84.247]
+I 2026/03/09 13:29:15 NETWORK * yacyClient.hello thread 'PublishSeed_IU5LCL_Marco' contacted peer at http://151.29.66.251:8090/, received 9287 bytes, time = 6815 milliseconds
+I 2026/03/09 13:29:15 NETWORK * yacyClient.hello: Peer 'IU5LCL_Marco' reported us as junior.
+I 2026/03/09 13:29:15 NETWORK * publish: handshaked senior peer 'IU5LCL_Marco' at [151.29.66.251]
+I 2026/03/09 13:29:21 NETWORK * yacyClient.hello thread 'PublishSeed_bebe-pub-42' contacted peer at http://bebe-pub-42.wuenscheonline.de:8090/, received 9176 bytes, time = 13215 milliseconds
+I 2026/03/09 13:29:21 NETWORK * yacyClient.hello: Peer 'bebe-pub-42' reported us as junior.
+I 2026/03/09 13:29:21 NETWORK * publish: handshaked principal peer 'bebe-pub-42' at [bebe-pub-42.wuenscheonline.de]
+I 2026/03/09 13:29:21 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 35 peer(s).
+I 2026/03/09 13:29:21 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:29:58 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 13:29:58 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 13:29:58 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:29:58 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:29:58 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 13:29:58 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 13:29:58 SWITCHBOARD * postprocessing deactivated: no enough ram (524405336), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 13:29:58 SWITCHBOARD * postprocessing deactivated: too high load (2.8916015625) > 2.5, to force change field postprocessing.maximum_load
+I 2026/03/09 13:29:58 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 13:29:58 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 13:29:58 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 13:29:58 NETWORK * yacyClient.hello thread 'PublishSeed_Archaeopath' contacted peer at http://178.254.30.106:8090/, received 9853 bytes, time = 6704 milliseconds
+I 2026/03/09 13:29:58 NETWORK * yacyClient.hello: Peer 'Archaeopath' reported us as junior.
+I 2026/03/09 13:29:58 NETWORK * publish: handshaked senior peer 'Archaeopath' at [178.254.30.106]
+I 2026/03/09 13:29:58 NETWORK * yacyClient.hello thread 'PublishSeed_agent-terulek-ufe-21' contacted peer at http://173.66.113.113:8090/, received 9230 bytes, time = 6927 milliseconds
+I 2026/03/09 13:29:58 NETWORK * yacyClient.hello: Peer 'agent-terulek-ufe-21' reported us as junior.
+I 2026/03/09 13:29:58 NETWORK * publish: handshaked senior peer 'agent-terulek-ufe-21' at [173.66.113.113]
+I 2026/03/09 13:29:58 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lehotoh-w-50' contacted peer at http://172.223.14.3:8090/, received 9098 bytes, time = 7010 milliseconds
+I 2026/03/09 13:29:58 NETWORK * yacyClient.hello: Peer 'agent-lehotoh-w-50' reported us as junior.
+I 2026/03/09 13:29:58 NETWORK * publish: handshaked senior peer 'agent-lehotoh-w-50' at [172.223.14.3]
+I 2026/03/09 13:29:58 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 38 peer(s).
+I 2026/03/09 13:29:58 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:30:32 NETWORK * yacyClient.hello thread 'PublishSeed_AletaYaCYInstance' contacted peer at http://217.248.86.40:8090/, received 9301 bytes, time = 3525 milliseconds
+I 2026/03/09 13:30:32 NETWORK * yacyClient.hello: Peer 'AletaYaCYInstance' reported us as junior.
+I 2026/03/09 13:30:32 NETWORK * publish: handshaked senior peer 'AletaYaCYInstance' at [217.248.86.40]
+I 2026/03/09 13:30:35 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kogalit-ufe-17' contacted peer at http://87.106.30.241:8090/, received 9215 bytes, time = 6667 milliseconds
+I 2026/03/09 13:30:35 NETWORK * yacyClient.hello: Peer 'agent-kogalit-ufe-17' reported us as junior.
+I 2026/03/09 13:30:35 NETWORK * publish: handshaked senior peer 'agent-kogalit-ufe-17' at [87.106.30.241]
+I 2026/03/09 13:30:58 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lamasob-ufe-32', peer http://169.136.55.222:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://169.136.55.222:8090/yacy/hello.html -> TimeoutException | request=POST http://169.136.55.222:8090/yacy/hello.html | target=http://169.136.55.222:8090 | route={}->http://169.136.55.222:8090 | vhost=169.136.55.222 | sniEnabled=true | resolvedIp=169.136.55.222 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30008 | concurrent=true
+I 2026/03/09 13:30:58 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:30:58 NETWORK * publish: disconnected senior peer 'agent-lamasob-ufe-32' from [169.136.55.222]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:30:58 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 40 peer(s).
+I 2026/03/09 13:30:58 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:31:35 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler4' contacted peer at http://78.54.214.33:8094/, received 9021 bytes, time = 6686 milliseconds
+I 2026/03/09 13:31:35 NETWORK * yacyClient.hello: Peer 'sixcooler4' reported us as junior.
+I 2026/03/09 13:31:35 NETWORK * publish: handshaked senior peer 'sixcooler4' at [78.54.214.33]
+I 2026/03/09 13:31:35 NETWORK * yacyClient.hello thread 'PublishSeed_agent-pelotes-ufe-43' contacted peer at http://45.88.137.2:8090/, received 9268 bytes, time = 6762 milliseconds
+I 2026/03/09 13:31:35 NETWORK * yacyClient.hello: Peer 'agent-pelotes-ufe-43' reported us as junior.
+I 2026/03/09 13:31:35 NETWORK * publish: handshaked senior peer 'agent-pelotes-ufe-43' at [45.88.137.2]
+I 2026/03/09 13:31:39 NETWORK * yacyClient.hello thread 'PublishSeed_agent-safemep-ufe-57' contacted peer at http://217.91.56.110:8090/, received 9163 bytes, time = 10255 milliseconds
+I 2026/03/09 13:31:39 NETWORK * yacyClient.hello: Peer 'agent-safemep-ufe-57' reported us as junior.
+I 2026/03/09 13:31:39 NETWORK * publish: handshaked senior peer 'agent-safemep-ufe-57' at [217.91.56.110]
+I 2026/03/09 13:31:39 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 41 peer(s).
+I 2026/03/09 13:31:39 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:32:09 NETWORK * yacyClient.hello thread 'PublishSeed_agent-fegukih-ufe-13', peer http://[2a02:3100:3f24:800:1418:2c1a:17b:a6b5]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2a02:3100:3f24:800:1418:2c1a:17b:a6b5]:8090/yacy/hello.html | target=http://[2a02:3100:3f24:800:1418:2c1a:17b:a6b5]:8090 | route={}->http://[2a02:3100:3f24:800:1418:2c1a:17b:a6b5]:8090 | vhost=[2a02:3100:3f24:800:1418:2c1a:17b:a6b5] | sniEnabled=true | resolvedIp=2a02:3100:3f24:800:1418:2c1a:17b:a6b5 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=5 | concurrent=true
+I 2026/03/09 13:32:09 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:32:09 NETWORK * publish: disconnected senior peer 'agent-fegukih-ufe-13' from [2a02:3100:3f24:800:1418:2c1a:17b:a6b5, 2a02:3100:3f24:800:c688:adb0:f996:90bb]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:32:09 NETWORK * yacyClient.hello thread 'PublishSeed_agent-fegukih-ufe-13', peer http://[2a02:3100:3f24:800:c688:adb0:f996:90bb]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2a02:3100:3f24:800:c688:adb0:f996:90bb]:8090/yacy/hello.html | target=http://[2a02:3100:3f24:800:c688:adb0:f996:90bb]:8090 | route={}->http://[2a02:3100:3f24:800:c688:adb0:f996:90bb]:8090 | vhost=[2a02:3100:3f24:800:c688:adb0:f996:90bb] | sniEnabled=true | resolvedIp=2a02:3100:3f24:800:c688:adb0:f996:90bb | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=1 | concurrent=true
+I 2026/03/09 13:32:09 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:32:09 NETWORK * publish: disconnected senior peer 'agent-fegukih-ufe-13' from [2a02:3100:3f24:800:c688:adb0:f996:90bb]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:32:39 NETWORK * yacyClient.hello thread 'PublishSeed_Azerbaijan03', peer http://82.194.19.66:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://82.194.19.66:8090/yacy/hello.html -> TimeoutException | request=POST http://82.194.19.66:8090/yacy/hello.html | target=http://82.194.19.66:8090 | route={}->http://82.194.19.66:8090 | vhost=82.194.19.66 | sniEnabled=true | resolvedIp=82.194.19.66 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30008 | concurrent=true
+I 2026/03/09 13:32:39 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:32:39 NETWORK * publish: disconnected senior peer 'Azerbaijan03' from [82.194.19.66, 81.17.88.251]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:32:39 NETWORK * yacyClient.hello thread 'PublishSeed_lotus', peer http://yacy.tateprice.net:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://yacy.tateprice.net:8090/yacy/hello.html -> TimeoutException | request=POST http://yacy.tateprice.net:8090/yacy/hello.html | target=http://yacy.tateprice.net:8090 | route={}->http://yacy.tateprice.net:8090 | vhost=yacy.tateprice.net | sniEnabled=true | resolvedIp=188.114.97.11 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30008 | concurrent=true
+I 2026/03/09 13:32:39 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:32:39 NETWORK * publish: disconnected senior peer 'lotus' from [yacy.tateprice.net]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:32:46 NETWORK * yacyClient.hello thread 'PublishSeed_Azerbaijan03' contacted peer at http://81.17.88.251:8090/, received 9704 bytes, time = 6909 milliseconds
+I 2026/03/09 13:32:46 NETWORK * yacyClient.hello: Peer 'Azerbaijan03' reported us as junior.
+I 2026/03/09 13:32:46 NETWORK * publish: handshaked senior peer 'Azerbaijan03' at [81.17.88.251]
+I 2026/03/09 13:32:46 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 32 peer(s).
+I 2026/03/09 13:32:46 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:33:22 NETWORK * yacyClient.hello thread 'PublishSeed_agent-sikokel-ufe-63' contacted peer at http://89.133.49.171:8090/, received 9400 bytes, time = 6659 milliseconds
+I 2026/03/09 13:33:22 NETWORK * yacyClient.hello: Peer 'agent-sikokel-ufe-63' reported us as junior.
+I 2026/03/09 13:33:22 NETWORK * publish: handshaked senior peer 'agent-sikokel-ufe-63' at [89.133.49.171]
+I 2026/03/09 13:33:22 NETWORK * yacyClient.hello thread 'PublishSeed_Praetor_Normsuche' contacted peer at http://54.36.109.184:8094/, received 9529 bytes, time = 6689 milliseconds
+I 2026/03/09 13:33:22 NETWORK * yacyClient.hello: Peer 'Praetor_Normsuche' reported us as junior.
+I 2026/03/09 13:33:22 NETWORK * publish: handshaked senior peer 'Praetor_Normsuche' at [54.36.109.184]
+I 2026/03/09 13:33:46 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dirofad-ufe-21', peer http://50.110.81.121:19201/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://50.110.81.121:19201/yacy/hello.html -> TimeoutException | request=POST http://50.110.81.121:19201/yacy/hello.html | target=http://50.110.81.121:19201 | route={}->http://50.110.81.121:19201 | vhost=50.110.81.121 | sniEnabled=true | resolvedIp=50.110.81.121 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30003 | concurrent=true
+I 2026/03/09 13:33:46 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:33:46 NETWORK * publish: disconnected senior peer 'agent-dirofad-ufe-21' from [50.110.81.121]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:33:46 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 29 peer(s).
+I 2026/03/09 13:33:46 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:34:22 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler' contacted peer at http://78.54.214.33:8080/, received 9646 bytes, time = 6644 milliseconds
+I 2026/03/09 13:34:22 NETWORK * yacyClient.hello: Peer 'sixcooler' reported us as junior.
+I 2026/03/09 13:34:22 NETWORK * publish: handshaked principal peer 'sixcooler' at [78.54.214.33]
+I 2026/03/09 13:34:23 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lefokum-ufe-78' contacted peer at http://200.40.68.166:8090/, received 9108 bytes, time = 7526 milliseconds
+I 2026/03/09 13:34:23 NETWORK * yacyClient.hello: Peer 'agent-lefokum-ufe-78' reported us as junior.
+I 2026/03/09 13:34:23 NETWORK * publish: handshaked senior peer 'agent-lefokum-ufe-78' at [200.40.68.166]
+I 2026/03/09 13:34:26 NETWORK * yacyClient.hello thread 'PublishSeed_vapke-e-v-2' contacted peer at http://87.118.88.78:8091/, received 9254 bytes, time = 10260 milliseconds
+I 2026/03/09 13:34:26 NETWORK * yacyClient.hello: Peer 'vapke-e-v-2' reported us as junior.
+I 2026/03/09 13:34:26 NETWORK * publish: handshaked senior peer 'vapke-e-v-2' at [87.118.88.78]
+I 2026/03/09 13:34:26 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 32 peer(s).
+I 2026/03/09 13:34:26 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:34:58 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 13:34:58 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 13:34:58 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:34:58 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:34:58 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 13:34:58 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 13:34:58 SWITCHBOARD * postprocessing deactivated: no enough ram (527894112), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 13:34:58 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 13:34:58 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 13:34:58 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 13:35:03 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kelolap-ufe-18' contacted peer at http://82.165.133.180:8090/, received 9607 bytes, time = 6719 milliseconds
+I 2026/03/09 13:35:03 NETWORK * yacyClient.hello: Peer 'agent-kelolap-ufe-18' reported us as junior.
+I 2026/03/09 13:35:03 NETWORK * yacyClient.hello thread 'PublishSeed_agent-sigadem-ufe-13' contacted peer at http://152.53.251.46:8090/, received 9443 bytes, time = 6725 milliseconds
+I 2026/03/09 13:35:03 NETWORK * yacyClient.hello: Peer 'agent-sigadem-ufe-13' reported us as junior.
+I 2026/03/09 13:35:03 NETWORK * publish: handshaked senior peer 'agent-sigadem-ufe-13' at [152.53.251.46]
+I 2026/03/09 13:35:03 NETWORK * publish: handshaked senior peer 'agent-kelolap-ufe-18' at [82.165.133.180]
+I 2026/03/09 13:35:04 NETWORK * yacyClient.hello thread 'PublishSeed_msrdbbs' contacted peer at http://121.200.29.194:8090/, received 9541 bytes, time = 7485 milliseconds
+I 2026/03/09 13:35:04 NETWORK * yacyClient.hello: Peer 'msrdbbs' reported us as junior.
+I 2026/03/09 13:35:04 NETWORK * publish: handshaked senior peer 'msrdbbs' at [121.200.29.194]
+I 2026/03/09 13:35:04 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 35 peer(s).
+I 2026/03/09 13:35:04 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:35:40 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler1' contacted peer at http://78.54.214.33:8000/, received 9598 bytes, time = 6686 milliseconds
+I 2026/03/09 13:35:40 NETWORK * yacyClient.hello thread 'PublishSeed_agent-fesugak-ufe-27' contacted peer at http://140.238.222.185:8090/, received 9461 bytes, time = 6686 milliseconds
+I 2026/03/09 13:35:40 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler0' contacted peer at http://78.54.214.33:8090/, received 9106 bytes, time = 6686 milliseconds
+I 2026/03/09 13:35:40 NETWORK * yacyClient.hello: Peer 'sixcooler0' reported us as junior.
+I 2026/03/09 13:35:40 NETWORK * yacyClient.hello: Peer 'sixcooler1' reported us as junior.
+I 2026/03/09 13:35:40 NETWORK * yacyClient.hello: Peer 'agent-fesugak-ufe-27' reported us as junior.
+I 2026/03/09 13:35:40 NETWORK * publish: handshaked senior peer 'sixcooler1' at [78.54.214.33]
+I 2026/03/09 13:35:40 NETWORK * publish: handshaked senior peer 'sixcooler0' at [78.54.214.33]
+I 2026/03/09 13:35:40 NETWORK * publish: handshaked senior peer 'agent-fesugak-ufe-27' at [140.238.222.185]
+I 2026/03/09 13:35:40 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 38 peer(s).
+I 2026/03/09 13:35:40 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:36:17 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gilebod-ufe-14' contacted peer at http://130.61.239.99:8090/, received 9343 bytes, time = 6621 milliseconds
+I 2026/03/09 13:36:17 NETWORK * yacyClient.hello: Peer 'agent-gilebod-ufe-14' reported us as junior.
+I 2026/03/09 13:36:17 NETWORK * publish: handshaked senior peer 'agent-gilebod-ufe-14' at [130.61.239.99]
+I 2026/03/09 13:36:17 NETWORK * yacyClient.hello thread 'PublishSeed_ghost-in-my-house' contacted peer at http://159.195.86.168:8090/, received 9096 bytes, time = 6667 milliseconds
+I 2026/03/09 13:36:17 NETWORK * yacyClient.hello: Peer 'ghost-in-my-house' reported us as junior.
+I 2026/03/09 13:36:17 NETWORK * publish: handshaked senior peer 'ghost-in-my-house' at [159.195.86.168]
+I 2026/03/09 13:36:40 NETWORK * yacyClient.hello thread 'PublishSeed_agent-refamep-ufe-0', peer http://167.235.1.187:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://167.235.1.187:8090/yacy/hello.html -> TimeoutException | request=POST http://167.235.1.187:8090/yacy/hello.html | target=http://167.235.1.187:8090 | route={}->http://167.235.1.187:8090 | vhost=167.235.1.187 | sniEnabled=true | resolvedIp=167.235.1.187 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30003 | concurrent=true
+I 2026/03/09 13:36:40 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:36:40 NETWORK * publish: disconnected senior peer 'agent-refamep-ufe-0' from [167.235.1.187]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:36:40 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 40 peer(s).
+I 2026/03/09 13:36:40 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:37:17 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gugubib-ufe-163' contacted peer at http://90.22.161.91:8090/, received 9113 bytes, time = 6716 milliseconds
+I 2026/03/09 13:37:17 NETWORK * yacyClient.hello thread 'PublishSeed_shark-crawler' contacted peer at http://185.122.53.147:49152/, received 8988 bytes, time = 6717 milliseconds
+I 2026/03/09 13:37:17 NETWORK * yacyClient.hello: Peer 'agent-gugubib-ufe-163' reported us as junior.
+I 2026/03/09 13:37:17 NETWORK * yacyClient.hello: Peer 'shark-crawler' reported us as junior.
+I 2026/03/09 13:37:17 NETWORK * publish: handshaked senior peer 'agent-gugubib-ufe-163' at [90.22.161.91]
+I 2026/03/09 13:37:17 NETWORK * publish: handshaked senior peer 'shark-crawler' at [185.122.53.147]
+I 2026/03/09 13:37:17 NETWORK * yacyClient.hello thread 'PublishSeed_AndiCrawler01' contacted peer at http://yacy-crawler.andisearch.com:8090/, received 9556 bytes, time = 7123 milliseconds
+I 2026/03/09 13:37:17 NETWORK * yacyClient.hello: Peer 'AndiCrawler01' reported us as junior.
+I 2026/03/09 13:37:17 NETWORK * publish: handshaked senior peer 'AndiCrawler01' at [yacy-crawler.andisearch.com]
+I 2026/03/09 13:37:17 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 43 peer(s).
+I 2026/03/09 13:37:17 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:37:54 NETWORK * yacyClient.hello thread 'PublishSeed__bu77701' contacted peer at http://185.18.125.70:8090/, received 9417 bytes, time = 6884 milliseconds
+I 2026/03/09 13:37:54 NETWORK * yacyClient.hello: Peer '_bu77701' reported us as junior.
+I 2026/03/09 13:37:54 NETWORK * publish: handshaked senior peer '_bu77701' at [185.18.125.70]
+I 2026/03/09 13:37:54 NETWORK * yacyClient.hello thread 'PublishSeed_etherealwebring' contacted peer at http://66.179.137.5:8090/, received 9456 bytes, time = 6959 milliseconds
+I 2026/03/09 13:37:54 NETWORK * yacyClient.hello: Peer 'etherealwebring' reported us as junior.
+I 2026/03/09 13:37:54 NETWORK * publish: handshaked senior peer 'etherealwebring' at [66.179.137.5]
+I 2026/03/09 13:37:55 NETWORK * yacyClient.hello thread 'PublishSeed_snipesearch-asia-main' contacted peer at http://1.10.248.25:8090/, received 9167 bytes, time = 7694 milliseconds
+I 2026/03/09 13:37:55 NETWORK * yacyClient.hello: Peer 'snipesearch-asia-main' reported us as junior.
+I 2026/03/09 13:37:55 NETWORK * publish: handshaked senior peer 'snipesearch-asia-main' at [1.10.248.25]
+I 2026/03/09 13:37:55 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 45 peer(s).
+I 2026/03/09 13:37:55 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:38:32 NETWORK * yacyClient.hello thread 'PublishSeed_agent-senanuk-ufe-20' contacted peer at http://81.174.23.25:8090/, received 9019 bytes, time = 6847 milliseconds
+I 2026/03/09 13:38:32 NETWORK * yacyClient.hello thread 'PublishSeed_agent-sokobis-w-30' contacted peer at http://86.5.6.95:8111/, received 9120 bytes, time = 6847 milliseconds
+I 2026/03/09 13:38:32 NETWORK * yacyClient.hello: Peer 'agent-sokobis-w-30' reported us as junior.
+I 2026/03/09 13:38:32 NETWORK * yacyClient.hello: Peer 'agent-senanuk-ufe-20' reported us as junior.
+I 2026/03/09 13:38:32 NETWORK * publish: handshaked senior peer 'agent-sokobis-w-30' at [86.5.6.95]
+I 2026/03/09 13:38:32 NETWORK * publish: handshaked senior peer 'agent-senanuk-ufe-20' at [81.174.23.25]
+I 2026/03/09 13:38:39 NETWORK * yacyClient.hello thread 'PublishSeed_neonknight' contacted peer at http://213.144.128.18:8090/, received 9108 bytes, time = 13335 milliseconds
+I 2026/03/09 13:38:39 NETWORK * yacyClient.hello: Peer 'neonknight' reported us as junior.
+I 2026/03/09 13:38:39 NETWORK * publish: handshaked senior peer 'neonknight' at [213.144.128.18]
+I 2026/03/09 13:38:39 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 46 peer(s).
+I 2026/03/09 13:38:39 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:39:15 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kogalit-ufe-17' contacted peer at http://87.106.30.241:8090/, received 8987 bytes, time = 6634 milliseconds
+I 2026/03/09 13:39:15 NETWORK * yacyClient.hello: Peer 'agent-kogalit-ufe-17' reported us as junior.
+I 2026/03/09 13:39:15 NETWORK * publish: handshaked senior peer 'agent-kogalit-ufe-17' at [87.106.30.241]
+I 2026/03/09 13:39:19 NETWORK * yacyClient.hello thread 'PublishSeed_sol_anonufe-18082489-14' contacted peer at http://84.191.93.133:8090/, received 9231 bytes, time = 10274 milliseconds
+I 2026/03/09 13:39:19 NETWORK * yacyClient.hello: Peer 'sol_anonufe-18082489-14' reported us as junior.
+I 2026/03/09 13:39:19 NETWORK * publish: handshaked principal peer 'sol_anonufe-18082489-14' at [84.191.93.133]
+I 2026/03/09 13:39:39 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dasus-ufe-11', peer http://95.107.40.126:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://95.107.40.126:8090/yacy/hello.html -> TimeoutException | request=POST http://95.107.40.126:8090/yacy/hello.html | target=http://95.107.40.126:8090 | route={}->http://95.107.40.126:8090 | vhost=95.107.40.126 | sniEnabled=true | resolvedIp=95.107.40.126 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30007 | concurrent=true
+I 2026/03/09 13:39:39 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:39:39 NETWORK * publish: disconnected senior peer 'agent-dasus-ufe-11' from [95.107.40.126]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:39:39 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 47 peer(s).
+I 2026/03/09 13:39:39 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:39:58 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 13:39:58 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 13:39:58 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:39:58 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:39:58 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 13:39:58 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 13:39:58 SWITCHBOARD * postprocessing deactivated: no enough ram (524131248), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 13:39:58 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 13:39:58 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 13:39:58 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 13:40:09 NETWORK * yacyClient.hello thread 'PublishSeed_agent-sukogag-ufe-195', peer http://[2a02:2455:86a0:3100:e65f:1ff:fe2b:86fb]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2a02:2455:86a0:3100:e65f:1ff:fe2b:86fb]:8090/yacy/hello.html | target=http://[2a02:2455:86a0:3100:e65f:1ff:fe2b:86fb]:8090 | route={}->http://[2a02:2455:86a0:3100:e65f:1ff:fe2b:86fb]:8090 | vhost=[2a02:2455:86a0:3100:e65f:1ff:fe2b:86fb] | sniEnabled=true | resolvedIp=2a02:2455:86a0:3100:e65f:1ff:fe2b:86fb | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=2 | concurrent=true
+I 2026/03/09 13:40:09 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:40:09 NETWORK * publish: disconnected senior peer 'agent-sukogag-ufe-195' from [2a02:2455:86a0:3100:e65f:1ff:fe2b:86fb, 37.120.82.186]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:40:09 NETWORK * yacyClient.hello thread 'PublishSeed_Johnny1984' contacted peer at http://yacy.013578.xyz/, received 8724 bytes, time = 713 milliseconds
+I 2026/03/09 13:40:09 NETWORK * yacyClient.hello: Peer 'Johnny1984' reported us as junior.
+I 2026/03/09 13:40:09 NETWORK * publish: handshaked senior peer 'Johnny1984' at [yacy.013578.xyz]
+I 2026/03/09 13:40:16 NETWORK * yacyClient.hello thread 'PublishSeed_agent-sukogag-ufe-195' contacted peer at http://37.120.82.186:8090/, received 9067 bytes, time = 6949 milliseconds
+I 2026/03/09 13:40:16 NETWORK * yacyClient.hello: Peer 'agent-sukogag-ufe-195' reported us as junior.
+I 2026/03/09 13:40:16 NETWORK * publish: handshaked senior peer 'agent-sukogag-ufe-195' at [37.120.82.186]
+I 2026/03/09 13:40:22 NETWORK * yacyClient.hello thread 'PublishSeed_agent-high' contacted peer at http://217.172.180.4:8090/, received 9343 bytes, time = 13442 milliseconds
+I 2026/03/09 13:40:22 NETWORK * yacyClient.hello: Peer 'agent-high' reported us as junior.
+I 2026/03/09 13:40:22 NETWORK * publish: handshaked senior peer 'agent-high' at [217.172.180.4]
+I 2026/03/09 13:40:22 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 48 peer(s).
+I 2026/03/09 13:40:22 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:40:52 NETWORK * yacyClient.hello thread 'PublishSeed_agent-bugagef-ufe-58', peer http://186.220.211.210:8090/; exception: HTTPClient failure: HttpHostConnectException: Connect to 186.220.211.210:8090 [/186.220.211.210] failed: Connection refused -> ConnectException: Connection refused | request=POST http://186.220.211.210:8090/yacy/hello.html | target=http://186.220.211.210:8090 | route={}->http://186.220.211.210:8090 | vhost=186.220.211.210 | sniEnabled=true | resolvedIp=186.220.211.210 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=346 | concurrent=true
+I 2026/03/09 13:40:52 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:40:52 NETWORK * publish: disconnected senior peer 'agent-bugagef-ufe-58' from [186.220.211.210]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:41:22 NETWORK * yacyClient.hello thread 'PublishSeed_agent-halisop-ufe-25', peer http://58.96.112.6:49152/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://58.96.112.6:49152/yacy/hello.html -> TimeoutException | request=POST http://58.96.112.6:49152/yacy/hello.html | target=http://58.96.112.6:49152 | route={}->http://58.96.112.6:49152 | vhost=58.96.112.6 | sniEnabled=true | resolvedIp=58.96.112.6 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30004 | concurrent=true
+I 2026/03/09 13:41:22 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:41:22 NETWORK * publish: disconnected senior peer 'agent-halisop-ufe-25' from [58.96.112.6]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:41:22 NETWORK * yacyClient.hello thread 'PublishSeed__anonufe-6867281-74', peer http://93.170.144.77:49153/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://93.170.144.77:49153/yacy/hello.html -> TimeoutException | request=POST http://93.170.144.77:49153/yacy/hello.html | target=http://93.170.144.77:49153 | route={}->http://93.170.144.77:49153 | vhost=93.170.144.77 | sniEnabled=true | resolvedIp=93.170.144.77 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30006 | concurrent=true
+I 2026/03/09 13:41:22 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:41:22 NETWORK * publish: disconnected senior peer '_anonufe-6867281-74' from [93.170.144.77]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:41:22 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 46 peer(s).
+I 2026/03/09 13:41:22 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:41:52 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kemufip-ufe-33', peer http://185.245.183.248:8090/; exception: HTTPClient failure: HttpHostConnectException: Connect to 185.245.183.248:8090 [/185.245.183.248] failed: Connection refused -> ConnectException: Connection refused | request=POST http://185.245.183.248:8090/yacy/hello.html | target=http://185.245.183.248:8090 | route={}->http://185.245.183.248:8090 | vhost=185.245.183.248 | sniEnabled=true | resolvedIp=185.245.183.248 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=44 | concurrent=true
+I 2026/03/09 13:41:52 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:41:52 NETWORK * publish: disconnected senior peer 'agent-kemufip-ufe-33' from [185.245.183.248]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:42:15 NETWORK * yacyClient.hello thread 'PublishSeed_Worzel', peer http://69.84.31.75:8090/; exception: HTTPClient failure: SocketException: Network is unreachable | request=POST http://69.84.31.75:8090/yacy/hello.html | target=http://69.84.31.75:8090 | route={}->http://69.84.31.75:8090 | vhost=69.84.31.75 | sniEnabled=true | resolvedIp=69.84.31.75 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=22969 | concurrent=true
+I 2026/03/09 13:42:15 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:42:15 NETWORK * publish: disconnected senior peer 'Worzel' from [69.84.31.75]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:42:22 NETWORK * yacyClient.hello thread 'PublishSeed_eskimo', peer http://204.122.16.7:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://204.122.16.7:8090/yacy/hello.html -> TimeoutException | request=POST http://204.122.16.7:8090/yacy/hello.html | target=http://204.122.16.7:8090 | route={}->http://204.122.16.7:8090 | vhost=204.122.16.7 | sniEnabled=true | resolvedIp=204.122.16.7 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 13:42:22 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:42:22 NETWORK * publish: disconnected senior peer 'eskimo' from [204.122.16.7]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:42:22 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 44 peer(s).
+I 2026/03/09 13:42:22 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:43:16 NETWORK * yacyClient.hello thread 'PublishSeed__anonufe-1554237-32', peer http://24.212.245.158:8090/; exception: HTTPClient failure: SocketException: Network is unreachable | request=POST http://24.212.245.158:8090/yacy/hello.html | target=http://24.212.245.158:8090 | route={}->http://24.212.245.158:8090 | vhost=24.212.245.158 | sniEnabled=true | resolvedIp=24.212.245.158 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=24050 | concurrent=true
+I 2026/03/09 13:43:16 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:43:16 NETWORK * publish: disconnected senior peer '_anonufe-1554237-32' from [24.212.245.158]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:43:18 NETWORK * yacyClient.hello thread 'PublishSeed_agent-pogilif-ufe-14', peer http://191.176.40.32:8090/; exception: HTTPClient failure: SocketException: Network is unreachable | request=POST http://191.176.40.32:8090/yacy/hello.html | target=http://191.176.40.32:8090 | route={}->http://191.176.40.32:8090 | vhost=191.176.40.32 | sniEnabled=true | resolvedIp=191.176.40.32 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=25587 | concurrent=true
+I 2026/03/09 13:43:18 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:43:18 NETWORK * publish: disconnected senior peer 'agent-pogilif-ufe-14' from [191.176.40.32]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:43:22 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dasus-ufe-11', peer http://95.107.40.126:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://95.107.40.126:8090/yacy/hello.html -> TimeoutException | request=POST http://95.107.40.126:8090/yacy/hello.html | target=http://95.107.40.126:8090 | route={}->http://95.107.40.126:8090 | vhost=95.107.40.126 | sniEnabled=true | resolvedIp=95.107.40.126 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30006 | concurrent=true
+I 2026/03/09 13:43:22 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:43:22 NETWORK * publish: disconnected senior peer 'agent-dasus-ufe-11' from [95.107.40.126]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:43:22 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 41 peer(s).
+I 2026/03/09 13:43:22 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:43:59 NETWORK * yacyClient.hello thread 'PublishSeed_gudao' contacted peer at http://38.45.65.132:8090/, received 9309 bytes, time = 7002 milliseconds
+I 2026/03/09 13:43:59 NETWORK * yacyClient.hello: Peer 'gudao' reported us as junior.
+I 2026/03/09 13:43:59 NETWORK * publish: handshaked senior peer 'gudao' at [38.45.65.132]
+I 2026/03/09 13:43:59 NETWORK * yacyClient.hello thread 'PublishSeed_agent-fudekis-ufe-14' contacted peer at http://107.179.134.218:8090/, received 9339 bytes, time = 7043 milliseconds
+I 2026/03/09 13:43:59 NETWORK * yacyClient.hello: Peer 'agent-fudekis-ufe-14' reported us as junior.
+I 2026/03/09 13:43:59 NETWORK * publish: handshaked senior peer 'agent-fudekis-ufe-14' at [107.179.134.218]
+I 2026/03/09 13:44:22 NETWORK * yacyClient.hello thread 'PublishSeed_agent-refamep-ufe-0', peer http://167.235.1.187:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://167.235.1.187:8090/yacy/hello.html -> TimeoutException | request=POST http://167.235.1.187:8090/yacy/hello.html | target=http://167.235.1.187:8090 | route={}->http://167.235.1.187:8090 | vhost=167.235.1.187 | sniEnabled=true | resolvedIp=167.235.1.187 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30007 | concurrent=true
+I 2026/03/09 13:44:22 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:44:22 NETWORK * publish: disconnected senior peer 'agent-refamep-ufe-0' from [167.235.1.187]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:44:22 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 37 peer(s).
+I 2026/03/09 13:44:22 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:44:58 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 13:44:59 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 13:44:59 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:44:59 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:44:59 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 13:44:59 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 13:44:59 SWITCHBOARD * postprocessing deactivated: no enough ram (500540800), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 13:44:59 SWITCHBOARD * postprocessing deactivated: too high load (2.53076171875) > 2.5, to force change field postprocessing.maximum_load
+I 2026/03/09 13:44:59 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 13:44:59 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 13:44:59 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 13:44:59 NETWORK * yacyClient.hello thread 'PublishSeed_agent-sikokel-ufe-63' contacted peer at http://89.133.49.171:8090/, received 9198 bytes, time = 6697 milliseconds
+I 2026/03/09 13:44:59 NETWORK * yacyClient.hello: Peer 'agent-sikokel-ufe-63' reported us as junior.
+I 2026/03/09 13:44:59 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lehotoh-w-50' contacted peer at http://172.223.14.3:8090/, received 9315 bytes, time = 7020 milliseconds
+I 2026/03/09 13:44:59 NETWORK * yacyClient.hello: Peer 'agent-lehotoh-w-50' reported us as junior.
+I 2026/03/09 13:44:59 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dolafor-ufe-42' contacted peer at http://23.94.61.51:8090/, received 8886 bytes, time = 7065 milliseconds
+I 2026/03/09 13:44:59 NETWORK * yacyClient.hello: Peer 'agent-dolafor-ufe-42' reported us as junior.
+I 2026/03/09 13:44:59 NETWORK * publish: handshaked senior peer 'agent-lehotoh-w-50' at [172.223.14.3]
+I 2026/03/09 13:44:59 NETWORK * publish: handshaked senior peer 'agent-sikokel-ufe-63' at [89.133.49.171]
+I 2026/03/09 13:44:59 NETWORK * publish: handshaked senior peer 'agent-dolafor-ufe-42' at [23.94.61.51]
+I 2026/03/09 13:44:59 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 36 peer(s).
+I 2026/03/09 13:44:59 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:45:37 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lefokum-ufe-78' contacted peer at http://200.40.68.166:8090/, received 9700 bytes, time = 7344 milliseconds
+I 2026/03/09 13:45:37 NETWORK * yacyClient.hello: Peer 'agent-lefokum-ufe-78' reported us as junior.
+I 2026/03/09 13:45:37 NETWORK * publish: handshaked senior peer 'agent-lefokum-ufe-78' at [200.40.68.166]
+I 2026/03/09 13:45:43 NETWORK * yacyClient.hello thread 'PublishSeed_NovaGrid' contacted peer at http://yacy.novagrid.ovh:8090/, received 9548 bytes, time = 13229 milliseconds
+I 2026/03/09 13:45:43 NETWORK * yacyClient.hello: Peer 'NovaGrid' reported us as junior.
+I 2026/03/09 13:45:43 NETWORK * publish: handshaked principal peer 'NovaGrid' at [yacy.novagrid.ovh]
+I 2026/03/09 13:45:59 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lehemif-w-75', peer http://44.148.185.59:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://44.148.185.59:8090/yacy/hello.html -> TimeoutException | request=POST http://44.148.185.59:8090/yacy/hello.html | target=http://44.148.185.59:8090 | route={}->http://44.148.185.59:8090 | vhost=44.148.185.59 | sniEnabled=true | resolvedIp=44.148.185.59 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30007 | concurrent=true
+I 2026/03/09 13:45:59 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:45:59 NETWORK * publish: disconnected senior peer 'agent-lehemif-w-75' from [44.148.185.59, 178.27.97.92]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:46:29 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lehemif-w-75', peer http://178.27.97.92:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://178.27.97.92:8090/yacy/hello.html -> TimeoutException | request=POST http://178.27.97.92:8090/yacy/hello.html | target=http://178.27.97.92:8090 | route={}->http://178.27.97.92:8090 | vhost=178.27.97.92 | sniEnabled=true | resolvedIp=178.27.97.92 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30008 | concurrent=true
+I 2026/03/09 13:46:29 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:46:29 NETWORK * publish: disconnected senior peer 'agent-lehemif-w-75' from [178.27.97.92]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:46:29 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 36 peer(s).
+I 2026/03/09 13:46:29 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:47:06 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gilebod-ufe-14' contacted peer at http://130.61.239.99:8090/, received 9169 bytes, time = 6673 milliseconds
+I 2026/03/09 13:47:06 NETWORK * yacyClient.hello: Peer 'agent-gilebod-ufe-14' reported us as junior.
+I 2026/03/09 13:47:06 NETWORK * yacyClient.hello thread 'PublishSeed_SteuerReport' contacted peer at http://54.36.109.187:8092/, received 9236 bytes, time = 6684 milliseconds
+I 2026/03/09 13:47:06 NETWORK * yacyClient.hello: Peer 'SteuerReport' reported us as junior.
+I 2026/03/09 13:47:06 NETWORK * publish: handshaked senior peer 'SteuerReport' at [54.36.109.187]
+I 2026/03/09 13:47:06 NETWORK * publish: handshaked senior peer 'agent-gilebod-ufe-14' at [130.61.239.99]
+I 2026/03/09 13:47:07 NETWORK * yacyClient.hello thread 'PublishSeed_agent-bamalag-ufe-69' contacted peer at http://34.92.116.201:8090/, received 9530 bytes, time = 7491 milliseconds
+I 2026/03/09 13:47:07 NETWORK * yacyClient.hello: Peer 'agent-bamalag-ufe-69' reported us as junior.
+I 2026/03/09 13:47:07 NETWORK * publish: handshaked senior peer 'agent-bamalag-ufe-69' at [34.92.116.201]
+I 2026/03/09 13:47:07 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 35 peer(s).
+I 2026/03/09 13:47:07 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:47:37 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kirekig-ufe-8', peer http://[2003:a:d43:2500:be24:11ff:fe91:f99b]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2003:a:d43:2500:be24:11ff:fe91:f99b]:8090/yacy/hello.html | target=http://[2003:a:d43:2500:be24:11ff:fe91:f99b]:8090 | route={}->http://[2003:a:d43:2500:be24:11ff:fe91:f99b]:8090 | vhost=[2003:a:d43:2500:be24:11ff:fe91:f99b] | sniEnabled=true | resolvedIp=2003:a:d43:2500:be24:11ff:fe91:f99b | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=3 | concurrent=true
+I 2026/03/09 13:47:37 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:47:37 NETWORK * publish: disconnected principal peer 'agent-kirekig-ufe-8' from [2003:a:d43:2500:be24:11ff:fe91:f99b, 87.138.163.104]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:47:44 NETWORK * yacyClient.hello thread 'PublishSeed_Archaeopath' contacted peer at http://178.254.30.106:8090/, received 9469 bytes, time = 6731 milliseconds
+I 2026/03/09 13:47:44 NETWORK * yacyClient.hello: Peer 'Archaeopath' reported us as junior.
+I 2026/03/09 13:47:44 NETWORK * publish: handshaked senior peer 'Archaeopath' at [178.254.30.106]
+I 2026/03/09 13:47:44 NETWORK * yacyClient.hello thread 'PublishSeed__bu77701' contacted peer at http://185.18.125.70:8090/, received 9147 bytes, time = 6762 milliseconds
+I 2026/03/09 13:47:44 NETWORK * yacyClient.hello: Peer '_bu77701' reported us as junior.
+I 2026/03/09 13:47:44 NETWORK * publish: handshaked senior peer '_bu77701' at [185.18.125.70]
+I 2026/03/09 13:47:47 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kirekig-ufe-8' contacted peer at http://87.138.163.104:8090/, received 9270 bytes, time = 10207 milliseconds
+I 2026/03/09 13:47:47 NETWORK * yacyClient.hello: Peer 'agent-kirekig-ufe-8' reported us as junior.
+I 2026/03/09 13:47:47 NETWORK * publish: handshaked principal peer 'agent-kirekig-ufe-8' at [87.138.163.104]
+I 2026/03/09 13:47:47 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 36 peer(s).
+I 2026/03/09 13:47:47 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:48:30 NETWORK * yacyClient.hello thread 'PublishSeed_neonknight' contacted peer at http://213.144.128.18:8090/, received 9447 bytes, time = 13248 milliseconds
+I 2026/03/09 13:48:30 NETWORK * yacyClient.hello: Peer 'neonknight' reported us as junior.
+I 2026/03/09 13:48:30 NETWORK * publish: handshaked senior peer 'neonknight' at [213.144.128.18]
+I 2026/03/09 13:48:47 NETWORK * yacyClient.hello thread 'PublishSeed_agent-timetravellingdog-kazak', peer http://100.101.127.34:8090/; exception: HTTPClient failure: ConnectTimeoutException: Connect to 100.101.127.34:8090 [/100.101.127.34] failed: Connect timed out -> SocketTimeoutException: Connect timed out | request=POST http://100.101.127.34:8090/yacy/hello.html | target=http://100.101.127.34:8090 | route={}->http://100.101.127.34:8090 | vhost=100.101.127.34 | sniEnabled=true | resolvedIp=100.101.127.34 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 13:48:47 NETWORK * yacyClient.hello thread 'PublishSeed_searchWintermute', peer http://152.53.51.248:8090/; exception: HTTPClient failure: ConnectTimeoutException: Connect to 152.53.51.248:8090 [/152.53.51.248] failed: Connect timed out -> SocketTimeoutException: Connect timed out | request=POST http://152.53.51.248:8090/yacy/hello.html | target=http://152.53.51.248:8090 | route={}->http://152.53.51.248:8090 | vhost=152.53.51.248 | sniEnabled=true | resolvedIp=152.53.51.248 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 13:48:47 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:48:47 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:48:47 NETWORK * publish: disconnected senior peer 'agent-timetravellingdog-kazak' from [100.101.127.34, 76.136.221.33]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:48:47 NETWORK * publish: disconnected senior peer 'searchWintermute' from [152.53.51.248]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:48:54 NETWORK * yacyClient.hello thread 'PublishSeed_agent-timetravellingdog-kazak' contacted peer at http://76.136.221.33:8090/, received 9556 bytes, time = 7129 milliseconds
+I 2026/03/09 13:48:54 NETWORK * yacyClient.hello: Peer 'agent-timetravellingdog-kazak' reported us as junior.
+I 2026/03/09 13:48:54 NETWORK * publish: handshaked senior peer 'agent-timetravellingdog-kazak' at [76.136.221.33]
+I 2026/03/09 13:48:54 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 36 peer(s).
+I 2026/03/09 13:48:54 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:49:31 NETWORK * yacyClient.hello thread 'PublishSeed_ZollReport' contacted peer at http://54.36.109.187:8093/, received 9188 bytes, time = 6754 milliseconds
+I 2026/03/09 13:49:31 NETWORK * yacyClient.hello: Peer 'ZollReport' reported us as junior.
+I 2026/03/09 13:49:31 NETWORK * publish: handshaked senior peer 'ZollReport' at [54.36.109.187]
+I 2026/03/09 13:49:31 NETWORK * yacyClient.hello thread 'PublishSeed_agent-pelotes-ufe-43' contacted peer at http://45.88.137.2:8090/, received 9500 bytes, time = 6804 milliseconds
+I 2026/03/09 13:49:31 NETWORK * yacyClient.hello: Peer 'agent-pelotes-ufe-43' reported us as junior.
+I 2026/03/09 13:49:31 NETWORK * publish: handshaked senior peer 'agent-pelotes-ufe-43' at [45.88.137.2]
+I 2026/03/09 13:49:31 NETWORK * yacyClient.hello thread 'PublishSeed_agent-senanuk-ufe-20' contacted peer at http://81.174.23.25:8090/, received 8992 bytes, time = 6884 milliseconds
+I 2026/03/09 13:49:31 NETWORK * yacyClient.hello: Peer 'agent-senanuk-ufe-20' reported us as junior.
+I 2026/03/09 13:49:31 NETWORK * publish: handshaked senior peer 'agent-senanuk-ufe-20' at [81.174.23.25]
+I 2026/03/09 13:49:31 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 36 peer(s).
+I 2026/03/09 13:49:31 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:49:59 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 13:49:59 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 13:49:59 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:49:59 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:49:59 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 13:49:59 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 13:49:59 SWITCHBOARD * postprocessing deactivated: no enough ram (526624144), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 13:49:59 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 13:49:59 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 13:49:59 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 13:50:08 NETWORK * yacyClient.hello thread 'PublishSeed_usem' contacted peer at http://185.246.155.142:8090/, received 9217 bytes, time = 6710 milliseconds
+I 2026/03/09 13:50:08 NETWORK * yacyClient.hello: Peer 'usem' reported us as junior.
+I 2026/03/09 13:50:08 NETWORK * publish: handshaked senior peer 'usem' at [185.246.155.142]
+I 2026/03/09 13:50:08 NETWORK * yacyClient.hello thread 'PublishSeed_agent-terulek-ufe-21' contacted peer at http://173.66.113.113:8090/, received 9240 bytes, time = 6924 milliseconds
+I 2026/03/09 13:50:08 NETWORK * yacyClient.hello: Peer 'agent-terulek-ufe-21' reported us as junior.
+I 2026/03/09 13:50:08 NETWORK * yacyClient.hello thread 'PublishSeed_etherealwebring' contacted peer at http://66.179.137.5:8090/, received 9200 bytes, time = 6933 milliseconds
+I 2026/03/09 13:50:08 NETWORK * yacyClient.hello: Peer 'etherealwebring' reported us as junior.
+I 2026/03/09 13:50:08 NETWORK * publish: handshaked senior peer 'agent-terulek-ufe-21' at [173.66.113.113]
+I 2026/03/09 13:50:08 NETWORK * publish: handshaked senior peer 'etherealwebring' at [66.179.137.5]
+I 2026/03/09 13:50:08 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 35 peer(s).
+I 2026/03/09 13:50:08 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:50:38 NETWORK * yacyClient.hello thread 'PublishSeed_precisionyacy', peer http://precisionyacy.v6.rocks:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://precisionyacy.v6.rocks:8090/yacy/hello.html | target=http://precisionyacy.v6.rocks:8090 | route={}->http://precisionyacy.v6.rocks:8090 | vhost=precisionyacy.v6.rocks | sniEnabled=true | resolvedIp=2a02:3100:840d:cb00:1a56:80ff:fee5:a6af | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=102 | concurrent=true
+I 2026/03/09 13:50:38 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:50:38 NETWORK * publish: disconnected senior peer 'precisionyacy' from [precisionyacy.v6.rocks]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:50:45 NETWORK * yacyClient.hello thread 'PublishSeed_AndiCrawler01' contacted peer at http://yacy-crawler.andisearch.com:8090/, received 8859 bytes, time = 7152 milliseconds
+I 2026/03/09 13:50:45 NETWORK * yacyClient.hello: Peer 'AndiCrawler01' reported us as junior.
+I 2026/03/09 13:50:45 NETWORK * publish: handshaked senior peer 'AndiCrawler01' at [yacy-crawler.andisearch.com]
+I 2026/03/09 13:50:52 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gelotuk-ufe-805' contacted peer at http://181.214.173.162:56309/, received 9261 bytes, time = 13707 milliseconds
+I 2026/03/09 13:50:52 NETWORK * yacyClient.hello: Peer 'agent-gelotuk-ufe-805' reported us as junior.
+I 2026/03/09 13:50:52 NETWORK * publish: handshaked senior peer 'agent-gelotuk-ufe-805' at [181.214.173.162]
+I 2026/03/09 13:50:52 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 33 peer(s).
+I 2026/03/09 13:50:52 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:51:29 NETWORK * yacyClient.hello thread 'PublishSeed_agent-moraron-ufe-19' contacted peer at http://173.249.38.186:8090/, received 9336 bytes, time = 6842 milliseconds
+I 2026/03/09 13:51:29 NETWORK * yacyClient.hello: Peer 'agent-moraron-ufe-19' reported us as junior.
+I 2026/03/09 13:51:29 NETWORK * publish: handshaked senior peer 'agent-moraron-ufe-19' at [173.249.38.186]
+I 2026/03/09 13:51:29 NETWORK * yacyClient.hello thread 'PublishSeed_agent-fudekis-ufe-14' contacted peer at http://107.179.134.218:8090/, received 9134 bytes, time = 7041 milliseconds
+I 2026/03/09 13:51:29 NETWORK * yacyClient.hello: Peer 'agent-fudekis-ufe-14' reported us as junior.
+I 2026/03/09 13:51:29 NETWORK * publish: handshaked senior peer 'agent-fudekis-ufe-14' at [107.179.134.218]
+I 2026/03/09 13:51:29 NETWORK * yacyClient.hello thread 'PublishSeed_agent-setegif-w-0' contacted peer at http://141.98.154.239:8003/, received 9208 bytes, time = 7333 milliseconds
+I 2026/03/09 13:51:29 NETWORK * yacyClient.hello: Peer 'agent-setegif-w-0' reported us as junior.
+I 2026/03/09 13:51:29 NETWORK * publish: handshaked senior peer 'agent-setegif-w-0' at [141.98.154.239]
+I 2026/03/09 13:51:29 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 34 peer(s).
+I 2026/03/09 13:51:29 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:51:59 NETWORK * yacyClient.hello thread 'PublishSeed_agent-mahamek-ufe-122', peer http://[2601:1c2:300:ac4:dea6:32ff:fed5:aed7]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2601:1c2:300:ac4:dea6:32ff:fed5:aed7]:8090/yacy/hello.html | target=http://[2601:1c2:300:ac4:dea6:32ff:fed5:aed7]:8090 | route={}->http://[2601:1c2:300:ac4:dea6:32ff:fed5:aed7]:8090 | vhost=[2601:1c2:300:ac4:dea6:32ff:fed5:aed7] | sniEnabled=true | resolvedIp=2601:1c2:300:ac4:dea6:32ff:fed5:aed7 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=2 | concurrent=true
+I 2026/03/09 13:51:59 NETWORK * yacyClient.hello thread 'PublishSeed_h-brasil-sti', peer http://[2804:7f0:7383:5d64:82ee:73ff:fe7a:e948]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2804:7f0:7383:5d64:82ee:73ff:fe7a:e948]:8090/yacy/hello.html | target=http://[2804:7f0:7383:5d64:82ee:73ff:fe7a:e948]:8090 | route={}->http://[2804:7f0:7383:5d64:82ee:73ff:fe7a:e948]:8090 | vhost=[2804:7f0:7383:5d64:82ee:73ff:fe7a:e948] | sniEnabled=true | resolvedIp=2804:7f0:7383:5d64:82ee:73ff:fe7a:e948 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=3 | concurrent=true
+I 2026/03/09 13:51:59 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:51:59 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:51:59 NETWORK * publish: disconnected senior peer 'agent-mahamek-ufe-122' from [2601:1c2:300:ac4:dea6:32ff:fed5:aed7, 24.20.55.177]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:51:59 NETWORK * publish: disconnected senior peer 'h-brasil-sti' from [2804:7f0:7383:5d64:82ee:73ff:fe7a:e948, 177.171.62.162]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:52:07 NETWORK * yacyClient.hello thread 'PublishSeed_agent-mahamek-ufe-122' contacted peer at http://24.20.55.177:8090/, received 9019 bytes, time = 7260 milliseconds
+I 2026/03/09 13:52:07 NETWORK * yacyClient.hello: Peer 'agent-mahamek-ufe-122' reported us as junior.
+I 2026/03/09 13:52:07 NETWORK * yacyClient.hello thread 'PublishSeed_snipesearch-asia-main' contacted peer at http://1.10.248.25:8090/, received 9519 bytes, time = 7269 milliseconds
+I 2026/03/09 13:52:07 NETWORK * yacyClient.hello: Peer 'snipesearch-asia-main' reported us as junior.
+I 2026/03/09 13:52:07 NETWORK * publish: handshaked senior peer 'snipesearch-asia-main' at [1.10.248.25]
+I 2026/03/09 13:52:07 NETWORK * publish: handshaked senior peer 'agent-mahamek-ufe-122' at [24.20.55.177]
+I 2026/03/09 13:52:07 NETWORK * yacyClient.hello thread 'PublishSeed_h-brasil-sti' contacted peer at http://177.171.62.162:8090/, received 9109 bytes, time = 7296 milliseconds
+I 2026/03/09 13:52:07 NETWORK * yacyClient.hello: Peer 'h-brasil-sti' reported us as junior.
+I 2026/03/09 13:52:07 NETWORK * publish: handshaked senior peer 'h-brasil-sti' at [177.171.62.162]
+I 2026/03/09 13:52:07 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 36 peer(s).
+I 2026/03/09 13:52:07 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:52:37 NETWORK * yacyClient.hello thread 'PublishSeed_search-newsgroup-site' contacted peer at http://168.231.108.21:8090/, received 766 bytes, time = 158 milliseconds
+I 2026/03/09 13:52:37 NETWORK * yacyClient.hello: Peer 'search-newsgroup-site' reported us as junior.
+I 2026/03/09 13:52:37 NETWORK * publish: handshaked senior peer 'search-newsgroup-site' at [168.231.108.21]
+I 2026/03/09 13:52:44 NETWORK * yacyClient.hello thread 'PublishSeed_gudao' contacted peer at http://38.45.65.132:8090/, received 9221 bytes, time = 7069 milliseconds
+I 2026/03/09 13:52:44 NETWORK * yacyClient.hello: Peer 'gudao' reported us as junior.
+I 2026/03/09 13:52:44 NETWORK * publish: handshaked senior peer 'gudao' at [38.45.65.132]
+I 2026/03/09 13:52:44 NETWORK * yacyClient.hello thread 'PublishSeed_agent-ligekug-ufe-104' contacted peer at http://76.174.91.160:49156/, received 9473 bytes, time = 7383 milliseconds
+I 2026/03/09 13:52:44 NETWORK * yacyClient.hello: Peer 'agent-ligekug-ufe-104' reported us as junior.
+I 2026/03/09 13:52:44 NETWORK * publish: handshaked senior peer 'agent-ligekug-ufe-104' at [76.174.91.160]
+I 2026/03/09 13:52:44 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 36 peer(s).
+I 2026/03/09 13:52:44 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:53:21 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler0' contacted peer at http://78.54.214.33:8090/, received 8947 bytes, time = 6845 milliseconds
+I 2026/03/09 13:53:21 NETWORK * yacyClient.hello: Peer 'sixcooler0' reported us as junior.
+I 2026/03/09 13:53:21 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gofunug-ufe-497' contacted peer at http://178.232.48.88:8090/, received 9564 bytes, time = 6853 milliseconds
+I 2026/03/09 13:53:21 NETWORK * yacyClient.hello: Peer 'agent-gofunug-ufe-497' reported us as junior.
+I 2026/03/09 13:53:21 NETWORK * publish: handshaked senior peer 'agent-gofunug-ufe-497' at [178.232.48.88]
+I 2026/03/09 13:53:21 NETWORK * publish: handshaked senior peer 'sixcooler0' at [78.54.214.33]
+I 2026/03/09 13:53:22 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lehotoh-w-50' contacted peer at http://172.223.14.3:8090/, received 9307 bytes, time = 7682 milliseconds
+I 2026/03/09 13:53:22 NETWORK * yacyClient.hello: Peer 'agent-lehotoh-w-50' reported us as junior.
+I 2026/03/09 13:53:22 NETWORK * publish: handshaked senior peer 'agent-lehotoh-w-50' at [172.223.14.3]
+I 2026/03/09 13:53:22 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 38 peer(s).
+I 2026/03/09 13:53:22 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:53:56 NETWORK * yacyClient.hello thread 'PublishSeed_Johnny1984' contacted peer at http://yacy.013578.xyz/, received 8818 bytes, time = 4158 milliseconds
+I 2026/03/09 13:53:56 NETWORK * yacyClient.hello: Peer 'Johnny1984' reported us as junior.
+I 2026/03/09 13:53:56 NETWORK * publish: handshaked senior peer 'Johnny1984' at [yacy.013578.xyz]
+I 2026/03/09 13:53:59 NETWORK * yacyClient.hello thread 'PublishSeed_merlin' contacted peer at http://84.61.255.32:8093/, received 9376 bytes, time = 6737 milliseconds
+I 2026/03/09 13:53:59 NETWORK * yacyClient.hello: Peer 'merlin' reported us as junior.
+I 2026/03/09 13:53:59 NETWORK * publish: handshaked senior peer 'merlin' at [84.61.255.32]
+I 2026/03/09 13:54:06 NETWORK * yacyClient.hello thread 'PublishSeed_xssfox' contacted peer at http://202.47.179.144:8090/, received 9404 bytes, time = 14162 milliseconds
+I 2026/03/09 13:54:06 NETWORK * yacyClient.hello: Peer 'xssfox' reported us as junior.
+I 2026/03/09 13:54:06 NETWORK * publish: handshaked senior peer 'xssfox' at [202.47.179.144]
+I 2026/03/09 13:54:06 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 39 peer(s).
+I 2026/03/09 13:54:06 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:54:36 NETWORK * yacyClient.hello thread 'PublishSeed_agent-bugagef-ufe-58', peer http://186.220.211.210:8090/; exception: HTTPClient failure: HttpHostConnectException: Connect to 186.220.211.210:8090 [/186.220.211.210] failed: Connection refused -> ConnectException: Connection refused | request=POST http://186.220.211.210:8090/yacy/hello.html | target=http://186.220.211.210:8090 | route={}->http://186.220.211.210:8090 | vhost=186.220.211.210 | sniEnabled=true | resolvedIp=186.220.211.210 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=400 | concurrent=true
+I 2026/03/09 13:54:36 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:54:36 NETWORK * publish: disconnected senior peer 'agent-bugagef-ufe-58' from [186.220.211.210]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:54:59 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 13:54:59 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 13:54:59 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 13:54:59 RESOURCE OBSERVER * resources ok
+I 2026/03/09 13:54:59 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 13:54:59 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 13:54:59 SWITCHBOARD * postprocessing deactivated: no enough ram (522800600), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 13:54:59 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 13:54:59 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 13:54:59 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 13:55:06 NETWORK * yacyClient.hello thread 'PublishSeed__anonufe-6867281-74', peer http://93.170.144.77:49153/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://93.170.144.77:49153/yacy/hello.html -> TimeoutException | request=POST http://93.170.144.77:49153/yacy/hello.html | target=http://93.170.144.77:49153 | route={}->http://93.170.144.77:49153 | vhost=93.170.144.77 | sniEnabled=true | resolvedIp=93.170.144.77 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30006 | concurrent=true
+I 2026/03/09 13:55:06 NETWORK * yacyClient.hello thread 'PublishSeed_agent-halisop-ufe-25', peer http://58.96.112.6:49152/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://58.96.112.6:49152/yacy/hello.html -> TimeoutException | request=POST http://58.96.112.6:49152/yacy/hello.html | target=http://58.96.112.6:49152 | route={}->http://58.96.112.6:49152 | vhost=58.96.112.6 | sniEnabled=true | resolvedIp=58.96.112.6 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30006 | concurrent=true
+I 2026/03/09 13:55:06 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:55:06 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:55:06 NETWORK * publish: disconnected senior peer 'agent-halisop-ufe-25' from [58.96.112.6]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:55:06 NETWORK * publish: disconnected senior peer '_anonufe-6867281-74' from [93.170.144.77]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:55:06 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 37 peer(s).
+I 2026/03/09 13:55:06 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:55:36 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kemufip-ufe-33', peer http://185.245.183.248:8090/; exception: HTTPClient failure: HttpHostConnectException: Connect to 185.245.183.248:8090 [/185.245.183.248] failed: Connection refused -> ConnectException: Connection refused | request=POST http://185.245.183.248:8090/yacy/hello.html | target=http://185.245.183.248:8090 | route={}->http://185.245.183.248:8090 | vhost=185.245.183.248 | sniEnabled=true | resolvedIp=185.245.183.248 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=41 | concurrent=true
+I 2026/03/09 13:55:36 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:55:36 NETWORK * publish: disconnected senior peer 'agent-kemufip-ufe-33' from [185.245.183.248]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:55:58 NETWORK * yacyClient.hello thread 'PublishSeed_Worzel', peer http://69.84.31.75:8090/; exception: HTTPClient failure: SocketException: Network is unreachable | request=POST http://69.84.31.75:8090/yacy/hello.html | target=http://69.84.31.75:8090 | route={}->http://69.84.31.75:8090 | vhost=69.84.31.75 | sniEnabled=true | resolvedIp=69.84.31.75 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=22316 | concurrent=true
+I 2026/03/09 13:55:58 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:55:58 NETWORK * publish: disconnected senior peer 'Worzel' from [69.84.31.75]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:56:06 NETWORK * yacyClient.hello thread 'PublishSeed_eskimo', peer http://204.122.16.7:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://204.122.16.7:8090/yacy/hello.html -> TimeoutException | request=POST http://204.122.16.7:8090/yacy/hello.html | target=http://204.122.16.7:8090 | route={}->http://204.122.16.7:8090 | vhost=204.122.16.7 | sniEnabled=true | resolvedIp=204.122.16.7 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 13:56:06 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:56:06 NETWORK * publish: disconnected senior peer 'eskimo' from [204.122.16.7]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:56:06 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 35 peer(s).
+I 2026/03/09 13:56:06 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:56:44 NETWORK * yacyClient.hello thread 'PublishSeed_agent-pogilif-ufe-14' contacted peer at http://191.176.40.32:8090/, received 9311 bytes, time = 7439 milliseconds
+I 2026/03/09 13:56:44 NETWORK * yacyClient.hello: Peer 'agent-pogilif-ufe-14' reported us as junior.
+I 2026/03/09 13:56:44 NETWORK * publish: handshaked senior peer 'agent-pogilif-ufe-14' at [191.176.40.32]
+I 2026/03/09 13:57:01 NETWORK * yacyClient.hello thread 'PublishSeed__anonufe-1554237-32', peer http://24.212.245.158:8090/; exception: HTTPClient failure: SocketException: Network is unreachable | request=POST http://24.212.245.158:8090/yacy/hello.html | target=http://24.212.245.158:8090 | route={}->http://24.212.245.158:8090 | vhost=24.212.245.158 | sniEnabled=true | resolvedIp=24.212.245.158 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=24663 | concurrent=true
+I 2026/03/09 13:57:01 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:57:01 NETWORK * publish: disconnected senior peer '_anonufe-1554237-32' from [24.212.245.158]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:57:06 NETWORK * yacyClient.hello thread 'PublishSeed_agent-refamep-ufe-0', peer http://167.235.1.187:8090/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://167.235.1.187:8090/yacy/hello.html -> TimeoutException | request=POST http://167.235.1.187:8090/yacy/hello.html | target=http://167.235.1.187:8090 | route={}->http://167.235.1.187:8090 | vhost=167.235.1.187 | sniEnabled=true | resolvedIp=167.235.1.187 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30004 | concurrent=true
+I 2026/03/09 13:57:06 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:57:06 NETWORK * publish: disconnected senior peer 'agent-refamep-ufe-0' from [167.235.1.187]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:57:06 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 36 peer(s).
+I 2026/03/09 13:57:06 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:57:43 NETWORK * yacyClient.hello thread 'PublishSeed_agent-bruce-ketta-42' contacted peer at http://87.106.211.80:8090/, received 8989 bytes, time = 6755 milliseconds
+I 2026/03/09 13:57:43 NETWORK * yacyClient.hello: Peer 'agent-bruce-ketta-42' reported us as junior.
+I 2026/03/09 13:57:43 NETWORK * yacyClient.hello thread 'PublishSeed_SteuerReport' contacted peer at http://54.36.109.187:8092/, received 9155 bytes, time = 6765 milliseconds
+I 2026/03/09 13:57:43 NETWORK * yacyClient.hello: Peer 'SteuerReport' reported us as junior.
+I 2026/03/09 13:57:43 NETWORK * publish: handshaked senior peer 'agent-bruce-ketta-42' at [87.106.211.80]
+I 2026/03/09 13:57:43 NETWORK * publish: handshaked senior peer 'SteuerReport' at [54.36.109.187]
+I 2026/03/09 13:57:43 NETWORK * yacyClient.hello thread 'PublishSeed_thoughts-of-mine' contacted peer at http://192.18.156.94:8090/, received 9149 bytes, time = 7155 milliseconds
+I 2026/03/09 13:57:43 NETWORK * yacyClient.hello: Peer 'thoughts-of-mine' reported us as junior.
+I 2026/03/09 13:57:43 NETWORK * publish: handshaked senior peer 'thoughts-of-mine' at [192.18.156.94]
+I 2026/03/09 13:57:43 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 38 peer(s).
+I 2026/03/09 13:57:43 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:58:13 NETWORK * yacyClient.hello thread 'PublishSeed_ViVaM', peer http://[2a01:e34:ec79:ad90:808f:bdff:fe17:c41e]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2a01:e34:ec79:ad90:808f:bdff:fe17:c41e]:8090/yacy/hello.html | target=http://[2a01:e34:ec79:ad90:808f:bdff:fe17:c41e]:8090 | route={}->http://[2a01:e34:ec79:ad90:808f:bdff:fe17:c41e]:8090 | vhost=[2a01:e34:ec79:ad90:808f:bdff:fe17:c41e] | sniEnabled=true | resolvedIp=2a01:e34:ec79:ad90:808f:bdff:fe17:c41e | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=3 | concurrent=true
+I 2026/03/09 13:58:13 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:58:13 NETWORK * publish: disconnected senior peer 'ViVaM' from [2a01:e34:ec79:ad90:808f:bdff:fe17:c41e, 78.199.154.217]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:58:20 NETWORK * yacyClient.hello thread 'PublishSeed_sixcooler' contacted peer at http://78.54.214.33:8080/, received 9320 bytes, time = 6725 milliseconds
+I 2026/03/09 13:58:20 NETWORK * yacyClient.hello: Peer 'sixcooler' reported us as junior.
+I 2026/03/09 13:58:20 NETWORK * yacyClient.hello thread 'PublishSeed_agent-mififin-ufe-42' contacted peer at http://65.108.121.176:8090/, received 9218 bytes, time = 6735 milliseconds
+I 2026/03/09 13:58:20 NETWORK * yacyClient.hello: Peer 'agent-mififin-ufe-42' reported us as junior.
+I 2026/03/09 13:58:20 NETWORK * publish: handshaked senior peer 'agent-mififin-ufe-42' at [65.108.121.176]
+I 2026/03/09 13:58:20 NETWORK * publish: handshaked principal peer 'sixcooler' at [78.54.214.33]
+I 2026/03/09 13:58:23 NETWORK * yacyClient.hello thread 'PublishSeed_ViVaM' contacted peer at http://78.199.154.217:8090/, received 8995 bytes, time = 10205 milliseconds
+I 2026/03/09 13:58:23 NETWORK * yacyClient.hello: Peer 'ViVaM' reported us as junior.
+I 2026/03/09 13:58:24 NETWORK * publish: handshaked senior peer 'ViVaM' at [78.199.154.217]
+I 2026/03/09 13:58:24 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 41 peer(s).
+I 2026/03/09 13:58:24 NETWORK * PeerPing: myType is junior
+I 2026/03/09 13:59:00 NETWORK * yacyClient.hello thread 'PublishSeed_agent-senanuk-ufe-20' contacted peer at http://81.174.23.25:8090/, received 9137 bytes, time = 6928 milliseconds
+I 2026/03/09 13:59:00 NETWORK * yacyClient.hello: Peer 'agent-senanuk-ufe-20' reported us as junior.
+I 2026/03/09 13:59:01 NETWORK * publish: handshaked senior peer 'agent-senanuk-ufe-20' at [81.174.23.25]
+I 2026/03/09 13:59:07 NETWORK * yacyClient.hello thread 'PublishSeed_NovaGrid' contacted peer at http://yacy.novagrid.ovh:8090/, received 9054 bytes, time = 13463 milliseconds
+I 2026/03/09 13:59:07 NETWORK * yacyClient.hello: Peer 'NovaGrid' reported us as junior.
+I 2026/03/09 13:59:07 NETWORK * publish: handshaked principal peer 'NovaGrid' at [yacy.novagrid.ovh]
+I 2026/03/09 13:59:24 NETWORK * yacyClient.hello thread 'PublishSeed_agent-rokimep-ufe-21', peer http://92.255.251.66:8090/; exception: HTTPClient failure: ConnectTimeoutException: Connect to 92.255.251.66:8090 [/92.255.251.66] failed: Connect timed out -> SocketTimeoutException: Connect timed out | request=POST http://92.255.251.66:8090/yacy/hello.html | target=http://92.255.251.66:8090 | route={}->http://92.255.251.66:8090 | vhost=92.255.251.66 | sniEnabled=true | resolvedIp=92.255.251.66 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 13:59:24 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 13:59:24 NETWORK * publish: disconnected senior peer 'agent-rokimep-ufe-21' from [92.255.251.66]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 13:59:24 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 41 peer(s).
+I 2026/03/09 13:59:24 NETWORK * PeerPing: myType is junior
+I 2026/03/09 14:00:00 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 14:00:00 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 14:00:00 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 14:00:00 RESOURCE OBSERVER * resources ok
+I 2026/03/09 14:00:00 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 14:00:00 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 14:00:00 SWITCHBOARD * postprocessing deactivated: no enough ram (532970128), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 14:00:00 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 14:00:00 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 14:00:00 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 14:00:00 NETWORK * yacyClient.hello thread 'PublishSeed_etherealwebring' contacted peer at http://66.179.137.5:8090/, received 9681 bytes, time = 6939 milliseconds
+I 2026/03/09 14:00:00 NETWORK * yacyClient.hello: Peer 'etherealwebring' reported us as junior.
+I 2026/03/09 14:00:01 NETWORK * publish: handshaked senior peer 'etherealwebring' at [66.179.137.5]
+I 2026/03/09 14:00:07 NETWORK * yacyClient.hello thread 'PublishSeed_agent-high' contacted peer at http://217.172.180.4:8090/, received 8921 bytes, time = 13182 milliseconds
+I 2026/03/09 14:00:07 NETWORK * yacyClient.hello: Peer 'agent-high' reported us as junior.
+I 2026/03/09 14:00:07 NETWORK * publish: handshaked senior peer 'agent-high' at [217.172.180.4]
+I 2026/03/09 14:00:24 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dirofad-ufe-21', peer http://50.110.81.121:19201/; exception: HTTPClient failure: IOException: timeout after 30000 ms for url http://50.110.81.121:19201/yacy/hello.html -> TimeoutException | request=POST http://50.110.81.121:19201/yacy/hello.html | target=http://50.110.81.121:19201 | route={}->http://50.110.81.121:19201 | vhost=50.110.81.121 | sniEnabled=true | resolvedIp=50.110.81.121 | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=30005 | concurrent=true
+I 2026/03/09 14:00:24 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 14:00:24 NETWORK * publish: disconnected senior peer 'agent-dirofad-ufe-21' from [50.110.81.121]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 14:00:24 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 40 peer(s).
+I 2026/03/09 14:00:24 NETWORK * PeerPing: myType is junior
+I 2026/03/09 14:00:54 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kirekig-ufe-8', peer http://[2003:a:d43:2500:be24:11ff:fe91:f99b]:8090/; exception: HTTPClient failure: NoRouteToHostException: No route to host | request=POST http://[2003:a:d43:2500:be24:11ff:fe91:f99b]:8090/yacy/hello.html | target=http://[2003:a:d43:2500:be24:11ff:fe91:f99b]:8090 | route={}->http://[2003:a:d43:2500:be24:11ff:fe91:f99b]:8090 | vhost=[2003:a:d43:2500:be24:11ff:fe91:f99b] | sniEnabled=true | resolvedIp=2003:a:d43:2500:be24:11ff:fe91:f99b | timeouts(ms){connect=30000, lease=30000, connect=30000} | deadline=30000 | duration=4 | concurrent=true
+I 2026/03/09 14:00:54 NETWORK * yacyClient.hello result error: result null
+I 2026/03/09 14:00:54 NETWORK * publish: disconnected principal peer 'agent-kirekig-ufe-8' from [2003:a:d43:2500:be24:11ff:fe91:f99b, 87.138.163.104]: peer ping to peer resulted in error response (added < 0)
+I 2026/03/09 14:01:00 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dipidel-ufe-7' contacted peer at http://45.156.84.247:8090/, received 9469 bytes, time = 6822 milliseconds
+I 2026/03/09 14:01:00 NETWORK * yacyClient.hello: Peer 'agent-dipidel-ufe-7' reported us as junior.
+I 2026/03/09 14:01:00 NETWORK * publish: handshaked senior peer 'agent-dipidel-ufe-7' at [45.156.84.247]
+I 2026/03/09 14:01:01 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dogulum-ufe-761' contacted peer at http://66.110.250.126:8090/, received 9365 bytes, time = 6996 milliseconds
+I 2026/03/09 14:01:01 NETWORK * yacyClient.hello: Peer 'agent-dogulum-ufe-761' reported us as junior.
+I 2026/03/09 14:01:01 NETWORK * publish: handshaked senior peer 'agent-dogulum-ufe-761' at [66.110.250.126]
+I 2026/03/09 14:01:04 NETWORK * yacyClient.hello thread 'PublishSeed_agent-kirekig-ufe-8' contacted peer at http://87.138.163.104:8090/, received 9408 bytes, time = 10154 milliseconds
+I 2026/03/09 14:01:04 NETWORK * yacyClient.hello: Peer 'agent-kirekig-ufe-8' reported us as junior.
+I 2026/03/09 14:01:04 NETWORK * publish: handshaked principal peer 'agent-kirekig-ufe-8' at [87.138.163.104]
+I 2026/03/09 14:01:04 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 41 peer(s).
+I 2026/03/09 14:01:04 NETWORK * PeerPing: myType is junior
+I 2026/03/09 14:03:41 NETWORK * yacyClient.hello thread 'PublishSeed_ExploreTruth' contacted peer at http://141.98.154.239:8090/, received 9309 bytes, time = 6786 milliseconds
+I 2026/03/09 14:03:41 NETWORK * yacyClient.hello thread 'PublishSeed_agent-ruraben-ufe-38' contacted peer at http://57.129.122.102:8090/, received 8998 bytes, time = 6787 milliseconds
+I 2026/03/09 14:03:41 NETWORK * yacyClient.hello: Peer 'agent-ruraben-ufe-38' reported us as junior.
+I 2026/03/09 14:03:41 NETWORK * yacyClient.hello: Peer 'ExploreTruth' reported us as junior.
+I 2026/03/09 14:03:41 NETWORK * publish: handshaked senior peer 'ExploreTruth' at [141.98.154.239]
+I 2026/03/09 14:03:41 NETWORK * publish: handshaked senior peer 'agent-ruraben-ufe-38' at [57.129.122.102]
+I 2026/03/09 14:03:41 NETWORK * yacyClient.hello thread 'PublishSeed_agent-lefokum-ufe-78' contacted peer at http://200.40.68.166:8090/, received 9051 bytes, time = 7449 milliseconds
+I 2026/03/09 14:03:41 NETWORK * yacyClient.hello: Peer 'agent-lefokum-ufe-78' reported us as junior.
+I 2026/03/09 14:03:41 NETWORK * publish: handshaked senior peer 'agent-lefokum-ufe-78' at [200.40.68.166]
+I 2026/03/09 14:03:41 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 39 peer(s).
+I 2026/03/09 14:03:41 NETWORK * PeerPing: myType is junior
+I 2026/03/09 14:04:18 NETWORK * yacyClient.hello thread 'PublishSeed_agent-pagukup-ufe-18' contacted peer at http://92.116.227.68:8090/, received 9218 bytes, time = 6719 milliseconds
+I 2026/03/09 14:04:18 NETWORK * yacyClient.hello: Peer 'agent-pagukup-ufe-18' reported us as junior.
+I 2026/03/09 14:04:18 NETWORK * publish: handshaked senior peer 'agent-pagukup-ufe-18' at [92.116.227.68]
+I 2026/03/09 14:04:20 NETWORK * yacyClient.hello thread 'PublishSeed_agent-setegif-w-0' contacted peer at http://141.98.154.239:8003/, received 9698 bytes, time = 8359 milliseconds
+I 2026/03/09 14:04:20 NETWORK * yacyClient.hello: Peer 'agent-setegif-w-0' reported us as junior.
+I 2026/03/09 14:04:20 NETWORK * publish: handshaked senior peer 'agent-setegif-w-0' at [141.98.154.239]
+I 2026/03/09 14:04:22 NETWORK * yacyClient.hello thread 'PublishSeed_idlid_com-39356792-11' contacted peer at http://192.99.28.106:8090/, received 9456 bytes, time = 10433 milliseconds
+I 2026/03/09 14:04:22 NETWORK * yacyClient.hello: Peer 'idlid_com-39356792-11' reported us as junior.
+I 2026/03/09 14:04:22 NETWORK * publish: handshaked senior peer 'idlid_com-39356792-11' at [192.99.28.106]
+I 2026/03/09 14:04:22 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 40 peer(s).
+I 2026/03/09 14:04:22 NETWORK * PeerPing: myType is junior
+I 2026/03/09 14:04:59 NETWORK * yacyClient.hello thread 'PublishSeed_gudao' contacted peer at http://38.45.65.132:8090/, received 9152 bytes, time = 7000 milliseconds
+I 2026/03/09 14:04:59 NETWORK * yacyClient.hello: Peer 'gudao' reported us as junior.
+I 2026/03/09 14:04:59 NETWORK * publish: handshaked senior peer 'gudao' at [38.45.65.132]
+I 2026/03/09 14:04:59 NETWORK * yacyClient.hello thread 'PublishSeed_agent-dolafor-ufe-42' contacted peer at http://23.94.61.51:8090/, received 9175 bytes, time = 7078 milliseconds
+I 2026/03/09 14:04:59 NETWORK * yacyClient.hello: Peer 'agent-dolafor-ufe-42' reported us as junior.
+I 2026/03/09 14:04:59 NETWORK * publish: handshaked senior peer 'agent-dolafor-ufe-42' at [23.94.61.51]
+I 2026/03/09 14:05:00 NETWORK * rulebasedUpdateInfo: not an automatic update selected
+I 2026/03/09 14:05:00 UPNP * unmapped port 8090 on device TL-WR841N
+I 2026/03/09 14:05:00 UPNP * mapped mapped port 8090 to port 8090 on device TL-WR841N, external IP is 100.65.64.15
+I 2026/03/09 14:05:00 RESOURCE OBSERVER * resources ok
+I 2026/03/09 14:05:00 SWITCHBOARD * postprocessing deactivated: field process_sxt is not enabled
+I 2026/03/09 14:05:00 SWITCHBOARD * postprocessing deactivated: no reference index avilable; activate citation index or webgraph
+I 2026/03/09 14:05:00 SWITCHBOARD * postprocessing deactivated: no enough ram (531170104), needed 536870912, to force change field postprocessing.minimum_ram
+I 2026/03/09 14:05:00 SWITCHBOARD * postprocessing deactivated: constraints violated
+I 2026/03/09 14:05:00 SWITCHBOARD * cleanup post-processed 0 documents
+I 2026/03/09 14:05:00 NoticedURL * CLEARING ALL STACKS
+I 2026/03/09 14:05:01 NETWORK * yacyClient.hello thread 'PublishSeed_msrdbbs' contacted peer at http://121.200.29.194:8090/, received 9409 bytes, time = 9010 milliseconds
+I 2026/03/09 14:05:01 NETWORK * yacyClient.hello: Peer 'msrdbbs' reported us as junior.
+I 2026/03/09 14:05:01 NETWORK * publish: handshaked senior peer 'msrdbbs' at [121.200.29.194]
+I 2026/03/09 14:05:01 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 40 peer(s).
+I 2026/03/09 14:05:01 NETWORK * PeerPing: myType is junior
+I 2026/03/09 14:05:38 NETWORK * yacyClient.hello thread 'PublishSeed_agent-sokobis-w-30' contacted peer at http://86.5.6.95:8111/, received 9091 bytes, time = 6828 milliseconds
+I 2026/03/09 14:05:38 NETWORK * yacyClient.hello: Peer 'agent-sokobis-w-30' reported us as junior.
+I 2026/03/09 14:05:38 NETWORK * publish: handshaked senior peer 'agent-sokobis-w-30' at [86.5.6.95]
+I 2026/03/09 14:05:38 NETWORK * yacyClient.hello thread 'PublishSeed_filsofia' contacted peer at http://69.163.207.93:8090/, received 9076 bytes, time = 7068 milliseconds
+I 2026/03/09 14:05:38 NETWORK * yacyClient.hello: Peer 'filsofia' reported us as junior.
+I 2026/03/09 14:05:38 NETWORK * publish: handshaked senior peer 'filsofia' at [69.163.207.93]
+I 2026/03/09 14:05:38 NETWORK * yacyClient.hello thread 'PublishSeed_h-brasil-sti' contacted peer at http://177.171.62.162:8090/, received 9319 bytes, time = 7289 milliseconds
+I 2026/03/09 14:05:38 NETWORK * yacyClient.hello: Peer 'h-brasil-sti' reported us as junior.
+I 2026/03/09 14:05:38 NETWORK * publish: handshaked senior peer 'h-brasil-sti' at [177.171.62.162]
+I 2026/03/09 14:05:38 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 40 peer(s).
+I 2026/03/09 14:05:38 NETWORK * PeerPing: myType is junior
+I 2026/03/09 14:06:15 NETWORK * yacyClient.hello thread 'PublishSeed_agent-gilebod-ufe-14' contacted peer at http://130.61.239.99:8090/, received 9142 bytes, time = 6920 milliseconds
+I 2026/03/09 14:06:15 NETWORK * yacyClient.hello thread 'PublishSeed_search-kkhost-pl' contacted peer at http://83.9.97.25:8090/, received 9109 bytes, time = 6920 milliseconds
+I 2026/03/09 14:06:15 NETWORK * yacyClient.hello: Peer 'search-kkhost-pl' reported us as junior.
+I 2026/03/09 14:06:15 NETWORK * yacyClient.hello: Peer 'agent-gilebod-ufe-14' reported us as junior.
+I 2026/03/09 14:06:15 NETWORK * publish: handshaked senior peer 'agent-gilebod-ufe-14' at [130.61.239.99]
+I 2026/03/09 14:06:15 NETWORK * publish: handshaked senior peer 'search-kkhost-pl' at [83.9.97.25]
+I 2026/03/09 14:06:23 NETWORK * yacyClient.hello thread 'PublishSeed_xssfox' contacted peer at http://202.47.179.144:8090/, received 9227 bytes, time = 14309 milliseconds
+I 2026/03/09 14:06:23 NETWORK * yacyClient.hello: Peer 'xssfox' reported us as junior.
+I 2026/03/09 14:06:23 NETWORK * publish: handshaked senior peer 'xssfox' at [202.47.179.144]
+I 2026/03/09 14:06:23 NETWORK * PeerPing: I am accessible for 0 peer(s), not accessible for 40 peer(s).
+I 2026/03/09 14:06:23 NETWORK * PeerPing: myType is junior

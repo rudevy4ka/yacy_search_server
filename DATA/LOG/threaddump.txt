@@ -1,0 +1,265 @@
+************* Start Thread Dump Mon Mar 09 14:10:00 EET 2026 *******************
+
+YaCy Version: yacy_v1.940_202603011703_4a3b66851
+AssignedMemory = 629145600
+UsedMemory = 104206672
+AvailableMemory = 524938928
+
+
+this thread dump function can find threads that lock others, to enable this function start YaCy with 'startYACY.sh -l'
+
+THREADS WITH STATES: BLOCKED
+
+
+THREADS WITH STATES: RUNNABLE
+
+[AbstractBusyThread__] Thread= BusyThread Switchboard.cleanupJob daemon id=96 RUNNABLE
+[AbstractBusyThread__] at java.base@17.0.14/java.lang.Thread.getAllStackTraces(Thread.java:1671)
+[AbstractBusyThread__] at app//net.yacy.kelondro.logging.ThreadDump.getAllStackTraces(ThreadDump.java:106)
+[AbstractBusyThread__] at app//net.yacy.kelondro.logging.ThreadDump.threaddump(ThreadDump.java:502)
+[AbstractBusyThread__] at app//net.yacy.search.Switchboard.cleanupJob(Switchboard.java:2558)
+[AbstractBusyThread__] at app//net.yacy.search.Switchboard$8.jobImpl(Switchboard.java:1116)
+[AbstractBusyThread__] at app//net.yacy.kelondro.workflow.InstantBusyThread.job(InstantBusyThread.java:64)
+[AbstractBusyThread__] at app//net.yacy.kelondro.workflow.AbstractBusyThread.run(AbstractBusyThread.java:215)
+
+
+[Thread______________] Thread= HTTPClient.execute_pool-1-thread-70  id=365 RUNNABLE
+[Thread______________] at java.base@17.0.14/java.net.Socket.connect(Socket.java:633)
+[Thread______________] at app//org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+[Thread______________] at app//org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+[Thread______________] at app//org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+[Thread______________] at app//org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+[Thread______________] at app//org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+[Thread______________] at app//org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+[Thread______________] at app//org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+[Thread______________] at app//org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+[Thread______________] at app//org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+[Thread______________] at app//org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+[Thread______________] at app//net.yacy.cora.protocol.http.HTTPClient.lambda$execute$0(HTTPClient.java:910)
+[Thread______________] at app//net.yacy.cora.protocol.http.HTTPClient$$Lambda$588/0x000000040165b740.call(Unknown Source)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[Thread______________] at java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+
+
+[shutdownHookThread__] Thread= yacy.shutdownHookThread  id=115 RUNNABLE
+[shutdownHookThread__] at java.desktop@17.0.14/java.awt.TrayIcon.setImage(TrayIcon.java:272)
+[shutdownHookThread__] at app//net.yacy.gui.Tray.setShutdown(Tray.java:202)
+[shutdownHookThread__] at app//net.yacy.search.Switchboard.terminate(Switchboard.java:4529)
+[shutdownHookThread__] at app//net.yacy.shutdownHookThread.run(yacy.java:865)
+
+
+[Thread______________] Thread= h2sc-7-thread-1  id=33 RUNNABLE
+[Thread______________] at java.base@17.0.14/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[Thread______________] at app//org.eclipse.jetty.io.ManagedSelector.nioSelect(ManagedSelector.java:183)
+[Thread______________] at app//org.eclipse.jetty.io.ManagedSelector.select(ManagedSelector.java:190)
+[Thread______________] at app//org.eclipse.jetty.io.ManagedSelector$SelectorProducer.select(ManagedSelector.java:606)
+[Thread______________] at app//org.eclipse.jetty.io.ManagedSelector$SelectorProducer.produce(ManagedSelector.java:543)
+[Thread______________] at app//org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produceTask(EatWhatYouKill.java:362)
+[Thread______________] at app//org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:186)
+[Thread______________] at app//org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+[Thread______________] at app//org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:137)
+[Thread______________] at app//org.eclipse.jetty.io.ManagedSelector$$Lambda$198/0x00000004012d55d8.run(Unknown Source)
+[Thread______________] at app//org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:259)
+[Thread______________] at app//org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$$Lambda$199/0x00000004012d6310.run(Unknown Source)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[Thread______________] at java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+
+
+[Reference$ReferenceH] Thread= Reference Handler daemon id=2 RUNNABLE
+[Reference$ReferenceH] at java.base@17.0.14/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+
+
+
+THREADS WITH STATES: TIMED_WAITING
+
+[Network$publishThrea] Thread= HTTPClient-http://178.27.97.92:8090/yacy/hello.html daemon id=395 TIMED_WAITING
+[Network$publishThrea] at java.base@17.0.14/jdk.internal.misc.Unsafe.park(Native Method)
+[Network$publishThrea] at java.base@17.0.14/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[Network$publishThrea] at java.base@17.0.14/java.util.concurrent.FutureTask.awaitDone(FutureTask.java:444)
+[Network$publishThrea] at java.base@17.0.14/java.util.concurrent.FutureTask.get(FutureTask.java:203)
+[Network$publishThrea] at app//net.yacy.cora.protocol.http.HTTPClient.execute(HTTPClient.java:915)
+[Network$publishThrea] at app//net.yacy.cora.protocol.http.HTTPClient.getContentBytes(HTTPClient.java:862)
+[Network$publishThrea] at app//net.yacy.cora.protocol.http.HTTPClient.POSTbytes(HTTPClient.java:662)
+[Network$publishThrea] at app//net.yacy.cora.protocol.http.HTTPClient.POSTbytes(HTTPClient.java:627)
+[Network$publishThrea] at app//net.yacy.peers.Protocol.hello(Protocol.java:210)
+[Network$publishThrea] at app//net.yacy.peers.Network$publishThread.run(Network.java:210)
+
+
+[MemoryTracker_______] Thread= MemoryTracker  id=16 TIMED_WAITING
+[MemoryTracker_______] at java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+[MemoryTracker_______] at app//net.yacy.search.MemoryTracker.run(MemoryTracker.java:60)
+
+
+[InnocuousThread_____] Thread= Common-Cleaner daemon id=13 TIMED_WAITING
+[InnocuousThread_____] at java.base@17.0.14/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[InnocuousThread_____] at java.base@17.0.14/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+[InnocuousThread_____] at java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+[InnocuousThread_____] at java.base@17.0.14/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+
+
+[Thread______________] Thread= Connection evictor daemon id=32 TIMED_WAITING
+[Thread______________] at java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+[Thread______________] at app//org.apache.http.impl.client.IdleConnectionEvictor$1.run(IdleConnectionEvictor.java:66)
+[Thread______________] at java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+
+
+[AbstractBusyThread__] Thread= BusyThread Switchboard.dhtTransferJob daemon id=102 TIMED_WAITING
+[AbstractBusyThread__] at java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+[AbstractBusyThread__] at app//net.yacy.kelondro.workflow.AbstractBusyThread.ratz(AbstractBusyThread.java:266)
+[AbstractBusyThread__] at app//net.yacy.kelondro.workflow.AbstractBusyThread.run(AbstractBusyThread.java:208)
+
+
+[Thread______________] Thread= Java2D Queue Flusher daemon id=22 TIMED_WAITING
+[Thread______________] at java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+
+
+[AbstractBusyThread__] Thread= BusyThread CrawlQueues.coreCrawlJob daemon id=99 TIMED_WAITING
+[AbstractBusyThread__] at java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+[AbstractBusyThread__] at app//net.yacy.kelondro.workflow.AbstractBusyThread.ratz(AbstractBusyThread.java:266)
+[AbstractBusyThread__] at app//net.yacy.kelondro.workflow.AbstractBusyThread.run(AbstractBusyThread.java:236)
+
+
+[Thread______________] Thread= HTTPClient.execute_pool-1-thread-71  id=366 TIMED_WAITING
+[Thread______________] at java.base@17.0.14/jdk.internal.misc.Unsafe.park(Native Method)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:401)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:903)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[Thread______________] at java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+
+
+[IndexCell$FlushThrea] Thread= IndexCell.FlushThread(/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/default)  id=29 TIMED_WAITING
+[IndexCell$FlushThrea] at java.base@17.0.14/java.lang.Thread.sleep(Native Method)
+[IndexCell$FlushThrea] at app//net.yacy.kelondro.rwi.IndexCell$FlushThread.run(IndexCell.java:127)
+
+
+
+THREADS WITH STATES: WAITING
+
+[AbstractBusyThread__] Thread= BusyThread Network.peerPing daemon id=101 WAITING
+[AbstractBusyThread__] at java.base@17.0.14/java.lang.Thread.join(Thread.java:1381)
+[AbstractBusyThread__] at app//net.yacy.peers.Network.publishMySeed(Network.java:400)
+[AbstractBusyThread__] at app//net.yacy.peers.Network.peerPing(Network.java:188)
+[AbstractBusyThread__] at app//net.yacy.search.Switchboard$13.jobImpl(Switchboard.java:1226)
+[AbstractBusyThread__] at app//net.yacy.kelondro.workflow.InstantBusyThread.job(InstantBusyThread.java:64)
+[AbstractBusyThread__] at app//net.yacy.kelondro.workflow.AbstractBusyThread.run(AbstractBusyThread.java:215)
+
+
+[yacy________________] Thread= main  id=1 WAITING
+[yacy________________] at java.base@17.0.14/jdk.internal.misc.Unsafe.park(Native Method)
+[yacy________________] at java.base@17.0.14/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[yacy________________] at java.base@17.0.14/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:715)
+[yacy________________] at java.base@17.0.14/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1047)
+[yacy________________] at java.base@17.0.14/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+[yacy________________] at app//net.yacy.search.Switchboard.waitForShutdown(Switchboard.java:4602)
+[yacy________________] at app//net.yacy.yacy.startup(yacy.java:393)
+[yacy________________] at app//net.yacy.yacy.main(yacy.java:832)
+
+
+[CloserThread________] Thread= CloserThread  id=36 WAITING
+[CloserThread________] at java.base@17.0.14/java.lang.Object.wait(Object.java:338)
+[CloserThread________] at app//org.apache.solr.core.CloserThread.run(CoreContainer.java:2416)
+
+
+[Thread______________] Thread= AWT-Shutdown  id=21 WAITING
+[Thread______________] at java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+
+
+[_AppEventHandler____] Thread= AppKit Thread daemon id=19 WAITING
+[_AppEventHandler____] at java.base@17.0.14/java.lang.System.exit(System.java:1877)
+[_AppEventHandler____] at java.desktop@17.0.14/com.apple.eawt._AppEventHandler.performQuit(_AppEventHandler.java:175)
+[_AppEventHandler____] at java.desktop@17.0.14/com.apple.eawt.MacQuitResponse.performQuit(MacQuitResponse.java:57)
+[_AppEventHandler____] at java.desktop@17.0.14/com.apple.eawt._AppEventHandler$_QuitDispatcher.performDefaultAction(_AppEventHandler.java:422)
+[_AppEventHandler____] at java.desktop@17.0.14/com.apple.eawt._AppEventHandler$_AppEventDispatcher.dispatch(_AppEventHandler.java:548)
+[_AppEventHandler____] at java.desktop@17.0.14/com.apple.eawt._AppEventHandler.handleNativeNotification(_AppEventHandler.java:232)
+
+
+[Thread______________] Thread= searcherExecutor-14-thread-1  id=40 WAITING
+[Thread______________] at java.base@17.0.14/jdk.internal.misc.Unsafe.park(Native Method)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[Thread______________] at java.base@17.0.14/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[Thread______________] at java.base@17.0.14/java.lang.Thread.run(Thread.java:840)
+
+
+[IODispatcher________] Thread= IODispatcher  id=28 WAITING
+[IODispatcher________] at java.base@17.0.14/jdk.internal.misc.Unsafe.park(Native Method)
+[IODispatcher________] at java.base@17.0.14/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[IODispatcher________] at java.base@17.0.14/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:715)
+[IODispatcher________] at java.base@17.0.14/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly(AbstractQueuedSynchronizer.java:1047)
+[IODispatcher________] at java.base@17.0.14/java.util.concurrent.Semaphore.acquire(Semaphore.java:318)
+[IODispatcher________] at app//net.yacy.kelondro.rwi.IODispatcher.run(IODispatcher.java:154)
+
+
+[WebStructureGraph$Pu] Thread= WebStructureGraph.PublicRefDNSResolvingProcess  id=63 WAITING
+[WebStructureGraph$Pu] at java.base@17.0.14/jdk.internal.misc.Unsafe.park(Native Method)
+[WebStructureGraph$Pu] at java.base@17.0.14/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[WebStructureGraph$Pu] at java.base@17.0.14/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[WebStructureGraph$Pu] at java.base@17.0.14/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3465)
+[WebStructureGraph$Pu] at java.base@17.0.14/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3436)
+[WebStructureGraph$Pu] at java.base@17.0.14/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1630)
+[WebStructureGraph$Pu] at java.base@17.0.14/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[WebStructureGraph$Pu] at app//net.yacy.peers.graphics.WebStructureGraph$PublicRefDNSResolvingProcess.run(WebStructureGraph.java:190)
+
+
+[Finalizer$FinalizerT] Thread= Finalizer daemon id=3 WAITING
+[Finalizer$FinalizerT] at java.base@17.0.14/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+
+
+
+THREADS WITH STATES: NEW
+
+
+THREADS WITH STATES: TERMINATED
+
+
+************* End Thread Dump Mon Mar 09 14:10:00 EET 2026 *******************
+
+Thread list from ThreadMXBean, 35 threads:
+main
+Reference Handler
+Finalizer
+Signal Dispatcher
+Notification Thread
+Common-Cleaner
+MemoryTracker
+AppKit Thread
+AWT-Shutdown
+Java2D Queue Flusher
+Java2D Disposer
+Connection evictor
+IODispatcher
+IndexCell.FlushThread(/Users/mrudevych/Documents/University/4 курс/2 семестр/IIS/lab1/yacy_search_server/DATA/INDEX/freeworld/SEGMENTS/default)
+httpShardExecutor-5-thread-1
+Connection evictor
+Connection evictor
+h2sc-7-thread-1
+CloserThread
+searcherExecutor-12-thread-1
+searcherExecutor-14-thread-1
+WebStructureGraph.PublicRefDNSResolvingProcess
+BusyThread Switchboard.cleanupJob
+BusyThread Switchboard.schedulerJob
+BusyThread Switchboard.packProcess
+BusyThread CrawlQueues.coreCrawlJob
+BusyThread Network.publishSeedList
+BusyThread Network.peerPing
+BusyThread Switchboard.dhtTransferJob
+HTTPClient.execute_pool-1-thread-71
+HTTPClient.execute_pool-1-thread-72
+HTTPClient.execute_pool-1-thread-70
+yacy.shutdownHookThread
+HTTPClient-http://178.27.97.92:8090/yacy/hello.html
+InetAddress.getByName_pool-1-thread-75
+

@@ -1,0 +1,102 @@
+<project name="YaCy" default="all" basedir=".">
+	<description>
+		YaCy - a Peer to Peer search Engine
+	</description>
+	
+<property name="src" location="source"/>
+<property name="lib" location="lib"/>
+<property name="libx" location="libx"/>
+<property name="build" location="classes"/>
+<property name="htroot" location="htroot"/>
+<property name="release" location="RELEASE"/>	
+
+<target name="init">
+	<tstamp/>
+	<mkdir dir="${build}/de/anomic/data"/>
+	<mkdir dir="${build}/de/anomic/htmlFilter"/>
+	<mkdir dir="${build}/de/anomic/http"/>
+	<mkdir dir="${build}/de/anomic/kelondro"/>
+	<mkdir dir="${build}/de/anomic/net"/>
+	<mkdir dir="${build}/de/anomic/plasma"/>
+	<mkdir dir="${build}/de/anomic/server"/>
+	<mkdir dir="${build}/de/anomic/tools"/>
+	<mkdir dir="${build}/de/anomic/yacy"/>
+	<mkdir dir="${release}"/>
+	
+	
+	<move file="${src}/yacy.java" tofile="${src}/yacy.java.orig" />
+	<tstamp>
+		<format property="REPL_DATE_FORMAT" pattern="yyyymmdd" />
+	</tstamp>
+	
+	<filter token="REPL_VERSION" value="0.368" />
+	<filter token="REPL_DATE" value="${DSTAMP}"/>
+	<copy file="${src}/yacy.java.orig" tofile="${src}/yacy.java" filtering="true" />
+</target>
+
+
+<target name="compile" depends="init" description="compiles the source">
+	<javac srcdir="${src}/" destdir="${build}" excludes="de/anomic/plasma/parser/**/*">
+        <classpath>
+          	<pathelement location="${build}" />
+        	
+        	<!-- libs needed for the yacy thread/object-pools -->
+          	<pathelement location="${lib}/commons-collections.jar" />
+        	<pathelement location="${lib}/commons-pool-1.2.jar" />        	      	
+        </classpath>		
+	</javac>	
+	<javac srcdir="${htroot}/" destdir="${htroot}" classpath="${build}"/>
+	<javac srcdir="${htroot}/htdocsdefault" destdir="${htroot}/htdocsdefault" classpath="${build}"/>	
+	<javac srcdir="${htroot}/yacy" destdir="${htroot}/yacy" classpath="${build}"/>	
+</target>
+
+
+<target name="all" depends="compile">
+	<delete file="${src}/yacy.java" />
+	<move file="${src}/yacy.java.orig" tofile="${src}/yacy.java" />
+</target>
+	
+<target name="dist" depends="all,pdfParser,docParser"/>	
+	
+<!-- target to create a zip file for the optional pdf file Parser -->	
+<target name="pdfParser" depends="compile" description="Creating a zip file for the pdf parser addon">
+	  <javac srcdir="${src}/de/anomic/plasma/parser/pdf" destdir="${build}">
+	  	<classpath>
+		  <!-- libs needed to parse pdf files -->
+	  	  <pathelement location="${build}" />	
+		  <pathelement location="${libx}/PDFBox-0.7.1.jar" />        	
+		  <pathelement location="${libx}/log4j-1.2.9.jar" />    
+	  	</classpath>
+	  </javac>
+	
+	  <zip destfile="${release}/pdfparser.zip">
+	  	<zipfileset dir="${libx}" includes="PDFBox-0.7.1.*" prefix="libx/"/>
+	  	<zipfileset dir="${libx}" includes="log4j-1.2.9.*" prefix="libx/"/>
+	  	<zipfileset dir="${build}/de/anomic/plasma/parser/pdf" prefix="classes/de/anomic/plasma/parser/pdf"/>	  	
+	  </zip>
+</target>	
+	
+<!-- target to create a zip file for the optional doc file Parser -->	
+<target name="docParser" depends="compile" description="Creating a zip file for the doc parser addon">	
+	  <javac srcdir="${src}/de/anomic/plasma/parser/doc" destdir="${build}">
+	  	<classpath>
+  	  	  <pathelement location="${build}" />
+	  	  <pathelement location="${libx}/tm-extractors-0.4.jar" />     
+  		</classpath>
+	  </javac>	
+
+	  <zip destfile="${release}/docparser.zip">
+	  	<zipfileset dir="${libx}" includes="tm-extractors-0.4.*" prefix="libx/"/>
+	  	<zipfileset dir="${build}/de/anomic/plasma/parser/doc" prefix="classes/de/anomic/plasma/parser/doc"/>	  	
+	  </zip>
+</target>		
+	
+
+<target name="clean" description="make clean">	
+    <delete>
+      	<fileset dir="${build}" includes="**/*.class" />
+    	<fileset dir="${htroot}" includes="**/*.class" />
+    </delete>	
+</target>
+	
+</project>

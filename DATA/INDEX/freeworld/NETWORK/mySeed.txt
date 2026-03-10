@@ -1,0 +1,1 @@
+p|{UTC=+0200,Port=8090,RCount=0,Hash=JC0L3X5043Xu,LastSeen=20260309120924,Name=agent-siponil-xmfe-16,Version=yacy_v1.940_202603011703_4a3b66851,rI=0,NCount=0,USpeed=0,rU=0,RSpeed=0.0,IP=45.12.24.147,PeerType=junior,ISpeed=0,ICount=0,CCount=2.0,sI=0,LCount=0,sU=0,BDate=20260309111357,news=,Uptime=55,Flags=%   ,IP6=,SCount=140}
