@@ -1,9 +1,10 @@
 name: My GitHub Actions Pipeline
+
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   build:
@@ -11,5 +12,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
       - name: Build code
-        run: echo "Лабораторна робота №5: автоматизація пройшла успішно!"
+        run: echo "Build process completed successfully"
