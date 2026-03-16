@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build code
-        run: echo "Build process completed successfully"
+        run: echo "Лабораторна робота 5 виконана успішно!"
